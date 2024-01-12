@@ -1,0 +1,11 @@
+StepTime (sec),Current (Amp),Ramping,Lockout,TurntableSpd (rpm),Comment
+15,0,No,On,0,Initial Current
+5,20,No,On,0,Up-Slope
+5,35,Yes,On,0,"First Level, RPM"
+10,30,No,Off,0.81,Second Level
+10,25,No,Off,0.81,Third Level
+10,32,No,Off,0.81,Forth Level
+5,28,No,Off,0.81,Down Slope
+5,25,Yes,On,0.81,Post-Purge
+15,25,No,On,0,
+1,0,No,On,0,

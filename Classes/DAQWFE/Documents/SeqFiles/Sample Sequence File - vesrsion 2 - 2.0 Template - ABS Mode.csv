@@ -1,0 +1,33 @@
+#SeqFileParameters,,,,,,,,,,,,
+Motor Velocity,0.05,,,,,,,,,,,
+Voltage Set Point,13.8,,,,,,,,,,,
+Move Scale Factor,0.022,,,,,,,,,,,
+Integration Time,2,,,,,,,,,,,
+Pgain,0.1,,,,,,,,,,,
+Igain,0.05,,,,,,,,,,,
+Dgain,0.05,,,,,,,,,,,
+PosMode, ABS, -->   PosMode Norm/Abs, see state table for logic,,,NOTE: can only be in either Normal Mode or Absolute Position Mode,,,,,,
+OscMode, ON, --> Oscillation Option,On/Off,see state table for logic,,,"NOTE: optional On/Off, can be turned on when either in Normal Mode or Absolute Position Mode, or turned off completely",,,,,
+WeldCurrentSP I/V,10,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+#SeqSteps,,,,,,,,,,,,
+Step Number,Step Time [S],Current [A],Ramping,AVC Lockout,Positioner Speed [RPM],Positioner Direction,Voltage Set Point Offset [V],Abs Postn Torch,Abs Postn Positioner,Oscillation Frequency [Hz],"Oscillation Amplitude [mil ""]",Comment
+1,3,0,No,On,0,CW,0,0,0,0,0,Prepurge
+2,2,40,No,On,0,CW,0,0,0,0,0,Initial delay
+3,5,50,Yes,On,0,CW,0,0,0,0,0,Upslope with Lockout ON
+4,3,50,No,Off,1.5,CW,0,50,22.5,0,0,Level 1a
+5,2,65,Yes,Off,1.5,CW,0.1,100,45,5,3,Level 1b
+6,2,65,No,Off,1.5,CW,0.25,150,67.5,5,3,Level 2a
+7,3,70,Yes,Off,1.5,CW,0.2,200,90,5,3,Level 2b
+8,5,55,Yes,Off,1.5,CW,0.1,100,135,5,3,Level 3
+9,5,45,Yes,Off,1.5,CW,0,-50,180,10,5,Level 4
+10,5,65,Yes,Off,1.5,CW,-0.1,100,225,10,5,Level 5
+11,5,65,No,Off,1.5,CW,0.25,200,270,5,3,Level 6
+12,5,52.5,Yes,Off,1.5,CW,0.1,100,315,5,3,Level 7
+13,5,45,No,Off,1.5,CW,-0.1,0,360,5,3,Level 8
+14,3,30,Yes,Off,1.5,CW,0,50,405,5,3,Level 9
+15,4,20,Yes,On,2,CW,0,100,460,5,3,Downslope
+16,2,15,Yes,On,1.5,CCW,0,75,420,10,5,Downslope reverse
+17,3,10,Yes,On,2,CW,0,125,475,10,5,Downslope
+18,15,0,No,On,0,CW,0,0,475,0,0,Postpurge

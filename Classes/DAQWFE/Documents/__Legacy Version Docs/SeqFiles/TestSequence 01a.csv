@@ -1,0 +1,4 @@
+TimeIntv,Current,UseSlope,Lockout,TurntableSpd,Comment
+5.2,25.0,FALSE,Off,0,This is a comment.
+6.4,26.8,TRUE,On,0.35,This is yet another comment
+54.4,14.5,TRUE,Off,0.88,And still yet another

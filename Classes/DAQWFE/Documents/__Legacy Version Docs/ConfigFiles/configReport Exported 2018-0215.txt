@@ -1,0 +1,18 @@
+Date:  2/15/2018 10:13:05 AM
+User:  KMT
+File:  C:\Projects\Ichor\AVC\Phase1\Docs\[SIM] configData.nce
+MAX version:  17.5
+
+Exporting...
+========
+NI-DAQmx 17.1:
+  0: NI CB-37F-HVD "CB-37F-HVD/Sim1-9207-AI-M1/0"
+  1: NI 9207 (DSUB) "Sim1-9207-AI-M1"
+  3: NI 9263 "Sim1-9263-AO-M3"
+  7: NI 9421 (DSUB) "Sim1-9421-DI-M7"
+  8: NI 9472 (DSUB) "Sim1-9472-DO-M8"
+  4: NI 9482 "Sim1-9482-Rly-M4"
+  NI cDAQ-9178 "Sim1-cDAQ9178"
+  NI Simulated DAQ Device "SimDev1"
+
+*** Export complete ***

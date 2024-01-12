@@ -1,0 +1,598 @@
+<?xml version="1.0" standalone="yes"?>
+<UI_Control_Label_Associations>
+  <Controls>
+    <Label>TT Direction</Label>
+    <Alias>TT Direction</Alias>
+    <IOName>TT Direction</IOName>
+  </Controls>
+  <Controls>
+    <Label>StepCntDn</Label>
+    <Alias>StepCntDn</Alias>
+    <IOName>StepCntDn</IOName>
+  </Controls>
+  <Controls>
+    <Label>SystemError</Label>
+    <Alias>SystemError</Alias>
+    <IOName>SystemError</IOName>
+  </Controls>
+  <Controls>
+    <Label>Pos Err (cnts)</Label>
+    <Alias>Pos Err (cnts)</Alias>
+    <IOName>Pos Err (cnts)</IOName>
+  </Controls>
+  <Controls>
+    <Label>Weld Enable</Label>
+    <Alias>Weld Enable</Alias>
+    <IOName>Weld Enable</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqLoaded</Label>
+    <Alias>SeqLoaded</Alias>
+    <IOName>SeqLoaded</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqAborted</Label>
+    <Alias>SeqAborted</Alias>
+    <IOName>SeqAborted</IOName>
+  </Controls>
+  <Controls>
+    <Label>MotorCtrlLoop Enable</Label>
+    <Alias>MotorCtrlLoop Enable</Alias>
+    <IOName>MotorCtrlLoop Enable</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqRunning</Label>
+    <Alias>SeqRunning</Alias>
+    <IOName>SeqRunning</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQ Rd &amp; MtrSP Interval</Label>
+    <Alias>DAQ Rd &amp; MtrSP Interval</Alias>
+    <IOName>DAQ Rd &amp; MtrSP Interval</IOName>
+  </Controls>
+  <Controls>
+    <Label>WriteLogFile Interval</Label>
+    <Alias>WriteLogFile Interval</Alias>
+    <IOName>WriteLogFile Interval</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQDisplay Interval</Label>
+    <Alias>DAQDisplay Interval</Alias>
+    <IOName>DAQDisplay Interval</IOName>
+  </Controls>
+  <Controls>
+    <Label>PosCtlrSettings</Label>
+    <Alias>PosCtlrSettings</Alias>
+    <IOName>PosCtlrSettings</IOName>
+  </Controls>
+  <Controls>
+    <Label>Process Complete</Label>
+    <Alias>Process Complete</Alias>
+    <IOName>Process Complete</IOName>
+  </Controls>
+  <Controls>
+    <Label>SEQUENCE FILE:</Label>
+    <Alias>SEQUENCE FILE:</Alias>
+    <IOName>SEQUENCE FILE:</IOName>
+  </Controls>
+  <Controls>
+    <Label>Load Sequence</Label>
+    <Alias>Load Sequence</Alias>
+    <IOName>Load Sequence</IOName>
+  </Controls>
+  <Controls>
+    <Label>WELD COUNT</Label>
+    <Alias>WELD COUNT</Alias>
+    <IOName>WELD COUNT</IOName>
+  </Controls>
+  <Controls>
+    <Label>Start Seq</Label>
+    <Alias>Start Seq</Alias>
+    <IOName>Start Seq</IOName>
+  </Controls>
+  <Controls>
+    <Label>Dry Run</Label>
+    <Alias>Dry Run</Alias>
+    <IOName>Dry Run</IOName>
+  </Controls>
+  <Controls>
+    <Label>ABORT</Label>
+    <Alias>ABORT</Alias>
+    <IOName>ABORT</IOName>
+  </Controls>
+  <Controls>
+    <Label>Oscillator Stop</Label>
+    <Alias>Oscillator Stop</Alias>
+    <IOName>Oscillator Stop</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Stop</Label>
+    <Alias>Torch Stop</Alias>
+    <IOName>Torch Stop</IOName>
+  </Controls>
+  <Controls>
+    <Label>Positioner Stop</Label>
+    <Alias>Positioner Stop</Alias>
+    <IOName>Positioner Stop</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Position</Label>
+    <Alias>Torch Position</Alias>
+    <IOName>Torch Position</IOName>
+  </Controls>
+  <Controls>
+    <Label>AVC</Label>
+    <Alias>AVC</Alias>
+    <IOName>AVC</IOName>
+  </Controls>
+  <Controls>
+    <Label>PURGE</Label>
+    <Alias>PURGE</Alias>
+    <IOName>PURGE</IOName>
+  </Controls>
+  <Controls>
+    <Label>Oscillator Position</Label>
+    <Alias>Oscillator Position</Alias>
+    <IOName>Oscillator Position</IOName>
+  </Controls>
+  <Controls>
+    <Label>Positioner Position</Label>
+    <Alias>Positioner Position</Alias>
+    <IOName>Positioner Position</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Away Slow</Label>
+    <Alias>Torch Away Slow</Alias>
+    <IOName>Torch Away Slow</IOName>
+  </Controls>
+  <Controls>
+    <Label>Positioner Home</Label>
+    <Alias>Positioner Home</Alias>
+    <IOName>Positioner Home</IOName>
+  </Controls>
+  <Controls>
+    <Label>Positioner Jog CW</Label>
+    <Alias>Positioner Jog CW</Alias>
+    <IOName>Positioner Jog CW</IOName>
+  </Controls>
+  <Controls>
+    <Label>Positioner Jog CCW</Label>
+    <Alias>Positioner Jog CCW</Alias>
+    <IOName>Positioner Jog CCW</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Away Fast</Label>
+    <Alias>Torch Away Fast</Alias>
+    <IOName>Torch Away Fast</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Toward Slow</Label>
+    <Alias>Torch Toward Slow</Alias>
+    <IOName>Torch Toward Slow</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Toward Fast</Label>
+    <Alias>Torch Toward Fast</Alias>
+    <IOName>Torch Toward Fast</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Home</Label>
+    <Alias>Torch Home</Alias>
+    <IOName>Torch Home</IOName>
+  </Controls>
+  <Controls>
+    <Label>SetPositionerHome</Label>
+    <Alias>SetPositionerHome</Alias>
+    <IOName>SetPositionerHome</IOName>
+  </Controls>
+  <Controls>
+    <Label>Weld Graph</Label>
+    <Alias>Weld Graph</Alias>
+    <IOName>Weld Graph</IOName>
+  </Controls>
+  <Controls>
+    <Label>Weld Current Waveform Chart</Label>
+    <Alias>Weld Current Waveform Chart</Alias>
+    <IOName>Weld Current Waveform Chart</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Incr Away</Label>
+    <Alias>Torch Incr Away</Alias>
+    <IOName>Torch Incr Away</IOName>
+  </Controls>
+  <Controls>
+    <Label>Torch Incr Towards</Label>
+    <Alias>Torch Incr Towards</Alias>
+    <IOName>Torch Incr Towards</IOName>
+  </Controls>
+  <Controls>
+    <Label>SetTorchHome</Label>
+    <Alias>SetTorchHome</Alias>
+    <IOName>SetTorchHome</IOName>
+  </Controls>
+  <Controls>
+    <Label>Oscillator Home</Label>
+    <Alias>Oscillator Home</Alias>
+    <IOName>Oscillator Home</IOName>
+  </Controls>
+  <Controls>
+    <Label>Oscillator LEFT</Label>
+    <Alias>Oscillator LEFT</Alias>
+    <IOName>Oscillator LEFT</IOName>
+  </Controls>
+  <Controls>
+    <Label>Oscillator RIGHT</Label>
+    <Alias>Oscillator RIGHT</Alias>
+    <IOName>Oscillator RIGHT</IOName>
+  </Controls>
+  <Controls>
+    <Label>SetOscHome</Label>
+    <Alias>SetOscHome</Alias>
+    <IOName>SetOscHome</IOName>
+  </Controls>
+  <Controls>
+    <Label>Home All</Label>
+    <Alias>Home All</Alias>
+    <IOName>Home All</IOName>
+  </Controls>
+  <Controls>
+    <Label>Exit</Label>
+    <Alias>Exit</Alias>
+    <IOName>Exit</IOName>
+  </Controls>
+  <Controls>
+    <Label>StatusMsg</Label>
+    <Alias>StatusMsg</Alias>
+    <IOName>StatusMsg</IOName>
+  </Controls>
+  <Controls>
+    <Label>localData</Label>
+    <Alias>localData</Alias>
+    <IOName>localData</IOName>
+  </Controls>
+  <Controls>
+    <Label>MainTabCtrl</Label>
+    <Alias>MainTabCtrl</Alias>
+    <IOName>MainTabCtrl</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQ Data</Label>
+    <Alias>DAQ Data</Alias>
+    <IOName>DAQ Data</IOName>
+  </Controls>
+  <Controls>
+    <Label>time stamp</Label>
+    <Alias>time stamp</Alias>
+    <IOName>time stamp</IOName>
+  </Controls>
+  <Controls>
+    <Label>col 0</Label>
+    <Alias>col 0</Alias>
+    <IOName>col 0</IOName>
+  </Controls>
+  <Controls>
+    <Label>col 1</Label>
+    <Alias>col 1</Alias>
+    <IOName>col 1</IOName>
+  </Controls>
+  <Controls>
+    <Label>col 0 name</Label>
+    <Alias>col 0 name</Alias>
+    <IOName>col 0 name</IOName>
+  </Controls>
+  <Controls>
+    <Label>col 1 name</Label>
+    <Alias>col 1 name</Alias>
+    <IOName>col 1 name</IOName>
+  </Controls>
+  <Controls>
+    <Label>DI DAQ Data</Label>
+    <Alias>DI DAQ Data</Alias>
+    <IOName>DI DAQ Data</IOName>
+  </Controls>
+  <Controls>
+    <Label>LoadSeqStatus</Label>
+    <Alias>LoadSeqStatus</Alias>
+    <IOName>LoadSeqStatus</IOName>
+  </Controls>
+  <Controls>
+    <Label>Load Seq (debug)</Label>
+    <Alias>Load Seq (debug)</Alias>
+    <IOName>Load Seq (debug)</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqFileParams</Label>
+    <Alias>SeqFileParams</Alias>
+    <IOName>SeqFileParams</IOName>
+  </Controls>
+  <Controls>
+    <Label>Sequence Table</Label>
+    <Alias>Sequence Table</Alias>
+    <IOName>Sequence Table</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqSteps[]</Label>
+    <Alias>SeqSteps[]</Alias>
+    <IOName>SeqSteps[]</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqFilePathname</Label>
+    <Alias>SeqFilePathname</Alias>
+    <IOName>SeqFilePathname</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqExecStatus</Label>
+    <Alias>SeqExecStatus</Alias>
+    <IOName>SeqExecStatus</IOName>
+  </Controls>
+  <Controls>
+    <Label>LocalSMDirect EvData</Label>
+    <Alias>LocalSMDirect EvData</Alias>
+    <IOName>LocalSMDirect EvData</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQ Latency</Label>
+    <Alias>DAQ Latency</Alias>
+    <IOName>DAQ Latency</IOName>
+  </Controls>
+  <Controls>
+    <Label>ProcessTime</Label>
+    <Alias>ProcessTime</Alias>
+    <IOName>ProcessTime</IOName>
+  </Controls>
+  <Controls>
+    <Label>WeldTime</Label>
+    <Alias>WeldTime</Alias>
+    <IOName>WeldTime</IOName>
+  </Controls>
+  <Controls>
+    <Label>Splash VI Ref</Label>
+    <Alias>Splash VI Ref</Alias>
+    <IOName>Splash VI Ref</IOName>
+  </Controls>
+  <Controls>
+    <Label>Splash StatusRef</Label>
+    <Alias>Splash StatusRef</Alias>
+    <IOName>Splash StatusRef</IOName>
+  </Controls>
+  <Controls>
+    <Label>Application in</Label>
+    <Alias>Application in</Alias>
+    <IOName>Application in</IOName>
+  </Controls>
+  <Controls>
+    <Label>AbortSeq - NonLatchingCtrl</Label>
+    <Alias>AbortSeq - NonLatchingCtrl</Alias>
+    <IOName>AbortSeq - NonLatchingCtrl</IOName>
+  </Controls>
+  <Controls>
+    <Label>Turntable ServoEnable</Label>
+    <Alias>Turntable ServoEnable</Alias>
+    <IOName>Turntable ServoEnable</IOName>
+  </Controls>
+  <Controls>
+    <Label>LeftPanelTab</Label>
+    <Alias>LeftPanelTab</Alias>
+    <IOName>LeftPanelTab</IOName>
+  </Controls>
+  <Controls>
+    <Label>MotorRspnsErr</Label>
+    <Alias>MotorRspnsErr</Alias>
+    <IOName>MotorRspnsErr</IOName>
+  </Controls>
+  <Controls>
+    <Label>TotalVgain</Label>
+    <Alias>TotalVgain</Alias>
+    <IOName>TotalVgain</IOName>
+  </Controls>
+  <Controls>
+    <Label>Motor SP</Label>
+    <Alias>Motor SP</Alias>
+    <IOName>Motor SP</IOName>
+  </Controls>
+  <Controls>
+    <Label>VoltageError</Label>
+    <Alias>VoltageError</Alias>
+    <IOName>VoltageError</IOName>
+  </Controls>
+  <Controls>
+    <Label>voltage fb</Label>
+    <Alias>voltage fb</Alias>
+    <IOName>voltage fb</IOName>
+  </Controls>
+  <Controls>
+    <Label>Current SP</Label>
+    <Alias>Current SP</Alias>
+    <IOName>Current SP</IOName>
+  </Controls>
+  <Controls>
+    <Label>Current fb</Label>
+    <Alias>Current fb</Alias>
+    <IOName>Current fb</IOName>
+  </Controls>
+  <Controls>
+    <Label>AVC Lockout</Label>
+    <Alias>AVC Lockout</Alias>
+    <IOName>AVC Lockout</IOName>
+  </Controls>
+  <Controls>
+    <Label>In Range?</Label>
+    <Alias>In Range?</Alias>
+    <IOName>In Range?</IOName>
+  </Controls>
+  <Controls>
+    <Label>Vsp_Sum</Label>
+    <Alias>Vsp_Sum</Alias>
+    <IOName>Vsp_Sum</IOName>
+  </Controls>
+  <Controls>
+    <Label>Volts and Current Chart</Label>
+    <Alias>Volts and Current Chart</Alias>
+    <IOName>Volts and Current Chart</IOName>
+  </Controls>
+  <Controls>
+    <Label>GraphEnable</Label>
+    <Alias>GraphEnable</Alias>
+    <IOName>GraphEnable</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqList</Label>
+    <Alias>SeqList</Alias>
+    <IOName>SeqList</IOName>
+  </Controls>
+  <Controls>
+    <Label>Step Comment</Label>
+    <Alias>Step Comment</Alias>
+    <IOName>Step Comment</IOName>
+  </Controls>
+  <Controls>
+    <Label>IgnoreMtrRspnsErr</Label>
+    <Alias>IgnoreMtrRspnsErr</Alias>
+    <IOName>IgnoreMtrRspnsErr</IOName>
+  </Controls>
+  <Controls>
+    <Label>AVC ConfigUtility</Label>
+    <Alias>AVC ConfigUtility</Alias>
+    <IOName>AVC ConfigUtility</IOName>
+  </Controls>
+  <Controls>
+    <Label>SamplingRate</Label>
+    <Alias>SamplingRate</Alias>
+    <IOName>SamplingRate</IOName>
+  </Controls>
+  <Controls>
+    <Label>NumSamples</Label>
+    <Alias>NumSamples</Alias>
+    <IOName>NumSamples</IOName>
+  </Controls>
+  <Controls>
+    <Label>UpdateDAQSettings</Label>
+    <Alias>UpdateDAQSettings</Alias>
+    <IOName>UpdateDAQSettings</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQEnabled</Label>
+    <Alias>DAQEnabled</Alias>
+    <IOName>DAQEnabled</IOName>
+  </Controls>
+  <Controls>
+    <Label>DAQEnDis</Label>
+    <Alias>DAQEnDis</Alias>
+    <IOName>DAQEnDis</IOName>
+  </Controls>
+  <Controls>
+    <Label>LogEnabled</Label>
+    <Alias>LogEnabled</Alias>
+    <IOName>LogEnabled</IOName>
+  </Controls>
+  <Controls>
+    <Label>LogEnDis</Label>
+    <Alias>LogEnDis</Alias>
+    <IOName>LogEnDis</IOName>
+  </Controls>
+  <Controls>
+    <Label>TDMSEnabled</Label>
+    <Alias>TDMSEnabled</Alias>
+    <IOName>TDMSEnabled</IOName>
+  </Controls>
+  <Controls>
+    <Label>TDMSEnDis</Label>
+    <Alias>TDMSEnDis</Alias>
+    <IOName>TDMSEnDis</IOName>
+  </Controls>
+  <Controls>
+    <Label>Enable msTickLogging</Label>
+    <Alias>Enable msTickLogging</Alias>
+    <IOName>Enable msTickLogging</IOName>
+  </Controls>
+  <Controls>
+    <Label>Launch_MotorLA_UI</Label>
+    <Alias>Launch_MotorLA_UI</Alias>
+    <IOName>Launch_MotorLA_UI</IOName>
+  </Controls>
+  <Controls>
+    <Label>Launch_MotorTT_UI</Label>
+    <Alias>Launch_MotorTT_UI</Alias>
+    <IOName>Launch_MotorTT_UI</IOName>
+  </Controls>
+  <Controls>
+    <Label>Launch_MotorOsc_UI</Label>
+    <Alias>Launch_MotorOsc_UI</Alias>
+    <IOName>Launch_MotorOsc_UI</IOName>
+  </Controls>
+  <Controls>
+    <Label>ConfigPg_button</Label>
+    <Alias>ConfigPg_button</Alias>
+    <IOName>ConfigPg_button</IOName>
+  </Controls>
+  <Controls>
+    <Label>TitleBar</Label>
+    <Alias>TitleBar</Alias>
+    <IOName>TitleBar</IOName>
+  </Controls>
+  <Controls>
+    <Label>TitleBar Text</Label>
+    <Alias>TitleBar Text</Alias>
+    <IOName>TitleBar Text</IOName>
+  </Controls>
+  <Controls>
+    <Label>TitleBar AppVerText</Label>
+    <Alias>TitleBar AppVerText</Alias>
+    <IOName>TitleBar AppVerText</IOName>
+  </Controls>
+  <Controls>
+    <Label>SeqPg_button</Label>
+    <Alias>SeqPg_button</Alias>
+    <IOName>SeqPg_button</IOName>
+  </Controls>
+  <Controls>
+    <Label>DataPg_button</Label>
+    <Alias>DataPg_button</Alias>
+    <IOName>DataPg_button</IOName>
+  </Controls>
+  <Controls>
+    <Label>SettingsPg_button</Label>
+    <Alias>SettingsPg_button</Alias>
+    <IOName>SettingsPg_button</IOName>
+  </Controls>
+  <Controls>
+    <Label>Restore</Label>
+    <Alias>Restore</Alias>
+    <IOName>Restore</IOName>
+  </Controls>
+  <Controls>
+    <Label>TT Speed RPM</Label>
+    <Alias>TT Speed RPM</Alias>
+    <IOName>TT Speed RPM</IOName>
+  </Controls>
+  <Controls>
+    <Label>Process RadialGraph</Label>
+    <Alias>Process RadialGraph</Alias>
+    <IOName>Process RadialGraph</IOName>
+  </Controls>
+  <Controls>
+    <Label>Safety OK</Label>
+    <Alias>Safety OK</Alias>
+    <IOName>Safety OK</IOName>
+  </Controls>
+  <Controls>
+    <Label>clear radial vfb</Label>
+    <Alias>clear radial vfb</Alias>
+    <IOName>clear radial vfb</IOName>
+  </Controls>
+  <Controls>
+    <Label>MotorLA_ControlUI</Label>
+    <Alias>MotorLA_ControlUI</Alias>
+    <IOName>MotorLA_ControlUI</IOName>
+  </Controls>
+  <Controls>
+    <Label>MotorTT_ControlUI</Label>
+    <Alias>MotorTT_ControlUI</Alias>
+    <IOName>MotorTT_ControlUI</IOName>
+  </Controls>
+  <Controls>
+    <Label>MotorOsc_ControlUI</Label>
+    <Alias>MotorOsc_ControlUI</Alias>
+    <IOName>MotorOsc_ControlUI</IOName>
+  </Controls>
+</UI_Control_Label_Associations>

@@ -1,0 +1,19 @@
+
+v2.0.1.5	01/31/2020
+-------------------------------
+Fixed
+1. clear weld XY plot data graph when sequence is started
+2. add weld count incremented after each weld completion
+3. set menu bar not visible at program start
+4. set ignore motor error (torch) by default
+	- do this by setting TRUE the Config file item; dflt_IgnoreRspnsErr = "TRUE"
+	  in the [Motor_LA Settings] section
+5. re-added session ui popup when seq is started
+-------------------------------
+
+
+v2.0.1.3	01/23/2020
+-------------------------------
+Baseline for testing.
+-------------------------------
+

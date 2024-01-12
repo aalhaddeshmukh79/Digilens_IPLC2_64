@@ -1,0 +1,16 @@
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageLowA","4.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageLowB","4.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageHigh","7.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageLowA","4.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageLowB","4.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageHigh","7.00"
+P,C,P,PH5_Spit,True
+P,G,T,12000,5,-1
+P,GW,F
+P,C,P,PH5_Spit,False
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageLowA","7.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageLowB","7.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Left Bank,DrivePowerVoltageHigh","14.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageLowA","7.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageLowB","7.00"
+P,C,P,"Print Manager,Print Line Manager,PMB-KM,HIB5-KM1024i,KM1024iPrintHead5,Right Bank,DrivePowerVoltageHigh","14.00"

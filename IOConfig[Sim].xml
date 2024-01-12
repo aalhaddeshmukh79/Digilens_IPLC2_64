@@ -1,0 +1,864 @@
+<?xml version="1.0" standalone="yes"?>
+<IO_Nodes>
+  <DI_Config>
+    <DI_Tasks>
+      <DI_TaskName>DITask_1</DI_TaskName>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R1</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line0</IOPath>
+        <SchemName>Ink Valve Switch - R1</SchemName>
+        <logic>Hi</logic>
+        <Index>0</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R2</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line1</IOPath>
+        <SchemName>Ink Valve Switch - R2</SchemName>
+        <logic>Hi</logic>
+        <Index>1</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R3</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line2</IOPath>
+        <SchemName>Ink Valve Switch - R3</SchemName>
+        <logic>Hi</logic>
+        <Index>2</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R4</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line3</IOPath>
+        <SchemName>Ink Valve Switch - R4</SchemName>
+        <logic>Hi</logic>
+        <Index>3</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R5</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line4</IOPath>
+        <SchemName>Ink Valve Switch - R5</SchemName>
+        <logic>Hi</logic>
+        <Index>4</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Ink Valve Switch - R6</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line5</IOPath>
+        <SchemName>Ink Valve Switch - R6</SchemName>
+        <logic>Hi</logic>
+        <Index>5</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R1</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line10</IOPath>
+        <SchemName>Purge Switch - R1</SchemName>
+        <logic>Hi</logic>
+        <Index>6</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R2</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line11</IOPath>
+        <SchemName>Purge Switch - R2</SchemName>
+        <logic>Hi</logic>
+        <Index>7</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R3</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line12</IOPath>
+        <SchemName>Purge Switch - R3</SchemName>
+        <logic>Hi</logic>
+        <Index>8</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R4</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line13</IOPath>
+        <SchemName>Purge Switch - R4</SchemName>
+        <logic>Hi</logic>
+        <Index>9</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R5</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line14</IOPath>
+        <SchemName>Purge Switch - R5</SchemName>
+        <logic>Hi</logic>
+        <Index>10</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Purge Switch - R6</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line15</IOPath>
+        <SchemName>Purge Switch - R6</SchemName>
+        <logic>Hi</logic>
+        <Index>11</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Cover Sensor - Input Side</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line20</IOPath>
+        <SchemName>Cover Sensor - Input Side</SchemName>
+        <logic>Hi</logic>
+        <Index>12</Index>
+      </DI_Channels>
+      <DI_Channels>
+        <DevName>cDAQ2Mod1_9425_DI</DevName>
+        <IOName>Cover Sensor - Output Side</IOName>
+        <IOPath>cDAQ2Mod1_9425_DI/port0/Line21</IOPath>
+        <SchemName>Cover Sensor - Output Side</SchemName>
+        <logic>Hi</logic>
+        <Index>13</Index>
+      </DI_Channels>
+    </DI_Tasks>
+  </DI_Config>
+  <DO_Config>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9458_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R1</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line0</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R2</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line1</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R3</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line2</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R4</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line3</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R5</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line4</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>Meniscus Pressure Reg PWR - R6</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line5</IOPath>
+      <SchemName>Meniscus Pressure Reg PWR - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>SV2 Servo Enable</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line6</IOPath>
+      <SchemName>SV2 Servo Enable</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod3_9485_DO</DevName>
+      <IOName>SV2 Servo ON</IOName>
+      <IOPath>cDAQ1Mod3_9458_DO/port0/line7</IOPath>
+      <SchemName>SV2 Servo ON</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R1</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line0</IOPath>
+      <SchemName>Purge Valve Open - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R2</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line1</IOPath>
+      <SchemName>Purge Valve Open - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R3</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line2</IOPath>
+      <SchemName>Purge Valve Open - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R4</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line3</IOPath>
+      <SchemName>Purge Valve Open - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R5</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line4</IOPath>
+      <SchemName>Purge Valve Open - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ1Mod4_9485_DO</DevName>
+      <IOName>Purge Valve Open - R6</IOName>
+      <IOPath>cDAQ1Mod4_9458_DO/port0/line5</IOPath>
+      <SchemName>Purge Valve Open - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R1</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line0</IOPath>
+      <SchemName>Meniscus Valve Open - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R2</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line1</IOPath>
+      <SchemName>Meniscus Valve Open - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R3</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line2</IOPath>
+      <SchemName>Meniscus Valve Open - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R4</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line3</IOPath>
+      <SchemName>Meniscus Valve Open - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R5</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line4</IOPath>
+      <SchemName>Meniscus Valve Open - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod3_9485_DO</DevName>
+      <IOName>Meniscus Valve Open - R6</IOName>
+      <IOPath>cDAQ2Mod3_9485_DO/port0/line5</IOPath>
+      <SchemName>Meniscus Valve Open - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R1</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line0</IOPath>
+      <SchemName>Ink Flow Valve Open - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R2</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line1</IOPath>
+      <SchemName>Ink Flow Valve Open - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R3</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line2</IOPath>
+      <SchemName>Ink Flow Valve Open - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R4</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line3</IOPath>
+      <SchemName>Ink Flow Valve Open - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R5</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line4</IOPath>
+      <SchemName>Ink Flow Valve Open - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <IOName>Ink Flow Valve Open - R6</IOName>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line5</IOPath>
+      <SchemName>Ink Flow Valve Open - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R1</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line0</IOPath>
+      <SchemName>Recirc Pump On - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R2</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line1</IOPath>
+      <SchemName>Recirc Pump On - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R3</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line2</IOPath>
+      <SchemName>Recirc Pump On - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R4</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line3</IOPath>
+      <SchemName>Recirc Pump On - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R5</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line4</IOPath>
+      <SchemName>Recirc Pump On - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <IOName>Recirc Pump On - R6</IOName>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line5</IOPath>
+      <SchemName>Recirc Pump On - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R1</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line0</IOPath>
+      <SchemName>LED - Ink Valve Switch - R1</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R2</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line1</IOPath>
+      <SchemName>LED - Ink Valve Switch - R2</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R3</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line2</IOPath>
+      <SchemName>LED - Ink Valve Switch - R3</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R4</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line3</IOPath>
+      <SchemName>LED - Ink Valve Switch - R4</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R5</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line4</IOPath>
+      <SchemName>LED - Ink Valve Switch - R5</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+    <DO_Channels>
+      <DevName>cDAQ2Mod6_9485_DO</DevName>
+      <IOName>LED - Ink Valve Switch - R6</IOName>
+      <IOPath>cDAQ2Mod6_9485_DO/port0/line5</IOPath>
+      <SchemName>LED - Ink Valve Switch - R6</SchemName>
+      <logic>Hi</logic>
+      <DAQmx_Task/>
+    </DO_Channels>
+  </DO_Config>
+  <AI_Config>
+    <AI_Tasks>
+      <AI_TaskName>AITask_1</AI_TaskName>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R1</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai0</IOPath>
+        <SchemName>Meniscus Pressure Read - R1</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10106</Terminal_Configuration>
+        <Index>0</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>0</bridge_configuration>
+            <voltage_excitation_source>0</voltage_excitation_source>
+            <voltage_excitation_value>0</voltage_excitation_value>
+            <nominal_bridge_resistance>0</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>0</second_electrical_value>
+            <electrical_units>0</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>0</second_physical_value>
+            <physical_units>0</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R2</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai1</IOPath>
+        <SchemName>Meniscus Pressure Read - R2</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10083</Terminal_Configuration>
+        <Index>1</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>0</bridge_configuration>
+            <voltage_excitation_source>0</voltage_excitation_source>
+            <voltage_excitation_value>0</voltage_excitation_value>
+            <nominal_bridge_resistance>0</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>0</second_electrical_value>
+            <electrical_units>0</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>0</second_physical_value>
+            <physical_units>0</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R3</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai2</IOPath>
+        <SchemName>Meniscus Pressure Read - R3</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10083</Terminal_Configuration>
+        <Index>2</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>10182</bridge_configuration>
+            <voltage_excitation_source>10200</voltage_excitation_source>
+            <voltage_excitation_value>2.5</voltage_excitation_value>
+            <nominal_bridge_resistance>350</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>2</second_electrical_value>
+            <electrical_units>15897</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>100</second_physical_value>
+            <physical_units>15876</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R4</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai3</IOPath>
+        <SchemName>Meniscus Pressure Read - R4</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10083</Terminal_Configuration>
+        <Index>3</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>10182</bridge_configuration>
+            <voltage_excitation_source>10200</voltage_excitation_source>
+            <voltage_excitation_value>2.5</voltage_excitation_value>
+            <nominal_bridge_resistance>350</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>2</second_electrical_value>
+            <electrical_units>15897</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>100</second_physical_value>
+            <physical_units>15876</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R5</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai4</IOPath>
+        <SchemName>Meniscus Pressure Read - R5</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10083</Terminal_Configuration>
+        <Index>4</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>10182</bridge_configuration>
+            <voltage_excitation_source>10200</voltage_excitation_source>
+            <voltage_excitation_value>2.5</voltage_excitation_value>
+            <nominal_bridge_resistance>350</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>2</second_electrical_value>
+            <electrical_units>15897</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>100</second_physical_value>
+            <physical_units>15876</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+      <AI_Channels>
+        <DevName>cDAQ1Mod1_9203_AI</DevName>
+        <IOName>Meniscus Pressure Read - R6</IOName>
+        <IOPath>cDAQ1Mod1_9203_AI/ai5</IOPath>
+        <SchemName>Meniscus Pressure Read - R6</SchemName>
+        <MinValue>4</MinValue>
+        <MaxValue>20</MaxValue>
+        <Terminal_Configuration>10083</Terminal_Configuration>
+        <Index>5</Index>
+        <Conversion>
+          <MaxSignal>20</MaxSignal>
+          <MinSignal>4</MinSignal>
+          <MaxEngUnit>25</MaxEngUnit>
+          <MinEngUnit>0</MinEngUnit>
+          <ScaleOffset>0</ScaleOffset>
+          <negate>false</negate>
+        </Conversion>
+        <AIType>Current</AIType>
+        <Force_Bridge>
+          <bridge_information>
+            <bridge_configuration>10182</bridge_configuration>
+            <voltage_excitation_source>10200</voltage_excitation_source>
+            <voltage_excitation_value>2.5</voltage_excitation_value>
+            <nominal_bridge_resistance>350</nominal_bridge_resistance>
+          </bridge_information>
+          <scaling_information>
+            <first_electrical_value>0</first_electrical_value>
+            <second_electrical_value>2</second_electrical_value>
+            <electrical_units>15897</electrical_units>
+            <first_physical_value>0</first_physical_value>
+            <second_physical_value>100</second_physical_value>
+            <physical_units>15876</physical_units>
+          </scaling_information>
+        </Force_Bridge>
+      </AI_Channels>
+    </AI_Tasks>
+  </AI_Config>
+  <AO_Config>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R1</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao0</IOPath>
+      <SchemName>Meniscus Pressure Set - R1</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R2</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao1</IOPath>
+      <SchemName>Meniscus Pressure Set - R2</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R3</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao2</IOPath>
+      <SchemName>Meniscus Pressure Set - R3</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R4</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao3</IOPath>
+      <SchemName>Meniscus Pressure Set - R4</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R5</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao4</IOPath>
+      <SchemName>Meniscus Pressure Set - R5</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Pressure Set - R6</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao5</IOPath>
+      <SchemName>Meniscus Pressure Set - R6</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>10</Vmax>
+      <Conversion>
+        <MaxSignal>10</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>20</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ1Mod2_9264_AO</DevName>
+      <IOName>Meniscus Vac Pump Speed</IOName>
+      <IOPath>cDAQ1Mod2_9264_AO/ao10</IOPath>
+      <SchemName>Meniscus Vac Pump Speed</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R1</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao0</IOPath>
+      <SchemName>Recirc Pump Flow Set - R1</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R2</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao1</IOPath>
+      <SchemName>Recirc Pump Flow Set - R2</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R3</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao2</IOPath>
+      <SchemName>Recirc Pump Flow Set - R3</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R4</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao3</IOPath>
+      <SchemName>Recirc Pump Flow Set - R4</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R5</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao4</IOPath>
+      <SchemName>Recirc Pump Flow Set - R5</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R6</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao5</IOPath>
+      <SchemName>Recirc Pump Flow Set - R6</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+  </AO_Config>
+</IO_Nodes>

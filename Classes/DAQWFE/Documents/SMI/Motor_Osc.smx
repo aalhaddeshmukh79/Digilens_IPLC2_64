@@ -1,0 +1,96 @@
+$500000B7CB0002B80000000000RUN?
+uu=0
+kk=0
+EIGN(2)
+EIGN(3)
+ZS
+cc=40000
+vv=10000
+O=0
+ADT=cc
+VT=vv
+ll=PA
+ppp=2000+ll
+zzz=ll-2000
+MP
+PT=ppp
+tt=ppp
+O=0
+mm=0
+$W02B4LE 1
+ll=PA
+$I00FBtt!=ppp
+$I00C4d==1
+PT=ppp
+tt=ppp
+$I00C0mm==1
+uu=1
+ENDIF
+$A00F5E$I00F5d==0
+PT=-ppp
+tt=ppp
+$I00EFmm==1
+uu=1
+ENDIF
+ENDIF
+ENDIF
+$S0106TCH uu
+$C$c0113 0
+$X01CAAK
+$C$c0152 1
+PRINT("Start Movement",#13)
+tt=ppp
+mm=1
+uu=0
+kk=1
+$X01CAAK
+$C$c0189 2
+PRINT("Stop Movement",#13)
+uu=0
+kk=2
+mm=0
+$X01CAAK
+$C$c01BC 3
+PRINT("Current Position=",ll,#13)
+uu=0
+$X01CAAK
+$DEFAULT
+$X01CAAK
+$eNDS
+$I02AFk!=kk
+$S01E3TCH kk
+$C$c01F5 0
+k=kk
+$X02A4AK
+$C$c0209 1
+G
+kk=3
+$X02A4AK
+$C$c021D 2
+S
+kk=0
+$X02A4AK
+$C$c0280 3
+pp=PA
+$I024Bpp>=ppp-2
+PT=-ppp
+kk=1
+d=0
+$A0279E$I026Epp<=-ppp+2
+PT=ppp
+kk=1
+d=1
+$E0279E
+kk=4
+ENDIF
+$X02A4AK
+$C$c0291 4
+kk=3
+$X02A4AK
+$DEFAULT
+k=kk
+$X02A4AK
+$eNDS
+ENDIF
+$L007DP
+END

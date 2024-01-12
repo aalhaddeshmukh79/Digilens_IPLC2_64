@@ -1,0 +1,27 @@
+RUN?
+aa=0
+uu=0
+WHILE 1
+
+SWITCH uu
+
+CASE 0
+
+BREAK
+
+CASE 1
+PRINT("Hello World", #13)
+PRINT("AA=",aa, #13)
+uu=0
+BREAK
+
+CASE 3
+
+BREAK
+
+DEFAULT
+BREAK
+ENDS
+
+LOOP
+END	'Obligatory (unreachable) end

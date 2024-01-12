@@ -1,0 +1,18 @@
+
+[AppFilePaths]
+MGI RWA Section Options=2.0.1 %04Y%02m%02d %02H%02M%S%25u*~|.%d*~|.,*~|.%#_13g
+FilePaths in.RunTimeSys?=FALSE
+FilePaths in.AppFolder=C:\projects\Digilens_IPLC\Classes\DAQWFE
+FilePaths in.ExecutablePath=<NONE>
+FilePaths in.ConfigFolder=C:\Projects\Ichor\AVC2\Documents\ConfigFiles
+FilePaths in.DataLogFolder=C:\AVC2_Data\DataLog
+FilePaths in.SystemLogFolder=C:\AVC2_Data\SystemLog
+FilePaths in.SeqFolder=C:\Projects\Ichor\AVC2\Documents\SeqFiles
+FilePaths in.MainStartupPathname=C:\projects\Digilens_IPLC\Classes\DAQWFE\LV_Source\Application\MainProcess.vi
+FilePaths in.MainUIPathname=C:\projects\Digilens_IPLC\Classes\DAQWFE\LV_Source\Application\AVC2_TouchScreen_MainUI.vi
+FilePaths in.SystemEventsFile=C:\AVC2_Data\SystemLog\SystemEvents.txt
+FilePaths in.SeqEventsFile=C:\Projects\Ichor\AVC2\Documents\SeqFiles\SeqEvents.txt
+FilePaths in.Config SettingsFile=C:\Projects\Ichor\AVC2\Documents\ConfigFiles\AVC2_Config - SIM.ini
+FilePaths in.DAQ IOConfigFile=C:\Projects\Ichor\AVC2\Documents\ConfigFiles\IO_Config.xml
+FilePaths in.SystemSimulation=FALSE
+RunTimeSys?=FALSE

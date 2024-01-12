@@ -1,0 +1,20 @@
+
+Turntable Motor:
+-Need Positioner motor API (via Motion class) to set speed (RPM), and direction (CW/CCW)
+-Need Positioner motor API (via Motion class) to set absolute position (deg)
+
+Linear Actuator Motor:
+-Need LinearActuator motor API (via Motion class) to set absolute position (milli-inchs)
+-Revise legacy's relative position move function used with the PID to execute via
+  Motion class, or somehow we need to expose the linear actuator motor as a dependency
+  for the PID_Ctlr class.
+-Need an API (via Motion class) to get/set a "AppSeqRunning" flag
+-Need an API (via Motion class) to have ability to update velocity
+
+Oscillator Motor:
+-Need Oscillator motor API (via Motion class) to seq rep-frequency (Hz) and amplitude (deviation in milli-inchs)
+
+
+For all motors (via Motion class)
+-Need API to stop/halt motion
+-Need API to get current position, velocity, encoder error cnt, etc. (as applicable)

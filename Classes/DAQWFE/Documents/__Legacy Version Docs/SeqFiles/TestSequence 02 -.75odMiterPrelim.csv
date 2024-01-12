@@ -1,0 +1,10 @@
+TimeIntv,Current,Lockout,UseSlope,TimeSlope,TurntableSpd,Comment
+0,0,On,FALSE,0,0,Pre-Purge
+15,20,On,FALSE,0,0,Initial Current
+20,35,On,TRUE,5,0,Up-Slope
+25,30,Off,FALSE,0,0.81,"First Level, RPM"
+35,25,Off,FALSE,0,0.81,Second Level
+45,32,Off,FALSE,0,0.81,Third Level
+55,28,Off,FALSE,0,0.81,Forth Level
+60,25,On,TRUE,-5,0.81,Down Slope
+75,0,On,FALSE,0,0,Post-Purge

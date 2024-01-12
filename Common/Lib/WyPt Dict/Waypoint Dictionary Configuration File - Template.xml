@@ -1,0 +1,627 @@
+<?xml version="1.0" standalone="yes"?>
+<WaypointDictionary>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>None</MC_and_Robo_Handshake>
+    <Idx>0</Idx>
+    <Cmd_Number/>
+    <Waypoint_List>OOO1,OOO2,OOO3</Waypoint_List>
+    <Description>None - example node</Description>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Move and Pick Nikon Ret LP(1100)</MC_and_Robo_Handshake>
+    <Idx>1</Idx>
+    <Cmd_Number>1100</Cmd_Number>
+    <Waypoint_List>1200,1201,1202,1203,1204,1205,1206,1207</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode1 Scanning Started(1101)</MC_and_Robo_Handshake>
+    <Idx>2</Idx>
+    <Cmd_Number>1101</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode1 Scan Abort(1102)</MC_and_Robo_Handshake>
+    <Idx>3</Idx>
+    <Cmd_Number>1102</Cmd_Number>
+    <Waypoint_List>1209,1210,1250,1251,1252,1253,1254,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode1 Scan Success Proc to Barcode 2 Pos(1103)</MC_and_Robo_Handshake>
+    <Idx>4</Idx>
+    <Cmd_Number>1103</Cmd_Number>
+    <Waypoint_List>1208</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode 2 Scanning Started(1104)</MC_and_Robo_Handshake>
+    <Idx>5</Idx>
+    <Cmd_Number>1104</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode 2 Scan Abort(1105) </MC_and_Robo_Handshake>
+    <Idx>6</Idx>
+    <Cmd_Number>1105</Cmd_Number>
+    <Waypoint_List>1209,1210,1250,1251,1252,1253,1254,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Nikon Barcode 2 Success(1106)</MC_and_Robo_Handshake>
+    <Idx>7</Idx>
+    <Cmd_Number>1106</Cmd_Number>
+    <Waypoint_List>1209,1210,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Move and Pick POZZ Ret LP(1300)</MC_and_Robo_Handshake>
+    <Idx>8</Idx>
+    <Cmd_Number>1300</Cmd_Number>
+    <Waypoint_List>1403,1402,1401,1400,1401,1402,1403,8302,8301,8300</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Barcode Scan Started(1301)</MC_and_Robo_Handshake>
+    <Idx>9</Idx>
+    <Cmd_Number>1301</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Barcode Not Found(1302)</MC_and_Robo_Handshake>
+    <Idx>10</Idx>
+    <Cmd_Number>1302</Cmd_Number>
+    <Waypoint_List>8301,8302,1403,1402,1401,1400,1401,1402,1403,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Barcode Scan Succ(1303)</MC_and_Robo_Handshake>
+    <Idx>11</Idx>
+    <Cmd_Number>1303</Cmd_Number>
+    <Waypoint_List>8301,8302,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 2 Bar 2(1310)</MC_and_Robo_Handshake>
+    <Idx>12</Idx>
+    <Cmd_Number>1310</Cmd_Number>
+    <Waypoint_List>8310</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 4 Bar 1(1311)</MC_and_Robo_Handshake>
+    <Idx>13</Idx>
+    <Cmd_Number>1311</Cmd_Number>
+    <Waypoint_List>1409</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 4 Bar 2(1312)</MC_and_Robo_Handshake>
+    <Idx>14</Idx>
+    <Cmd_Number>1312</Cmd_Number>
+    <Waypoint_List>1410</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 1 Bar 1(1313)</MC_and_Robo_Handshake>
+    <Idx>15</Idx>
+    <Cmd_Number>1313</Cmd_Number>
+    <Waypoint_List>1411</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 1 Bar 2(1314)</MC_and_Robo_Handshake>
+    <Idx>16</Idx>
+    <Cmd_Number>1314</Cmd_Number>
+    <Waypoint_List>1460</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 3 Bar 1(1315)</MC_and_Robo_Handshake>
+    <Idx>17</Idx>
+    <Cmd_Number>1315</Cmd_Number>
+    <Waypoint_List>1461</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Side 3 Bar 2(1316)</MC_and_Robo_Handshake>
+    <Idx>18</Idx>
+    <Cmd_Number>1316</Cmd_Number>
+    <Waypoint_List>1414</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Edge 3 Nik 2(1317)</MC_and_Robo_Handshake>
+    <Idx>19</Idx>
+    <Cmd_Number>1317</Cmd_Number>
+    <Waypoint_List>1415</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Edge 4 ASML(1318)</MC_and_Robo_Handshake>
+    <Idx>20</Idx>
+    <Cmd_Number>1318</Cmd_Number>
+    <Waypoint_List>1416</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Edge 4 Nik 1(1319)</MC_and_Robo_Handshake>
+    <Idx>21</Idx>
+    <Cmd_Number>1319</Cmd_Number>
+    <Waypoint_List>1417</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>POZZ Mov to Edge 4 Nik 2(1320)</MC_and_Robo_Handshake>
+    <Idx>22</Idx>
+    <Cmd_Number>1320</Cmd_Number>
+    <Waypoint_List>1418</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Move to ASML LP and Pick Ret(2000)</MC_and_Robo_Handshake>
+    <Idx>23</Idx>
+    <Cmd_Number>2000</Cmd_Number>
+    <Waypoint_List>2203,2202,2201,2200,2201,2202,2203,8502,8501,8500</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>ASML1 Barcode Scan Started(2001)</MC_and_Robo_Handshake>
+    <Idx>24</Idx>
+    <Cmd_Number>2001</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>ASML1 Barcode Not Found(2002)</MC_and_Robo_Handshake>
+    <Idx>25</Idx>
+    <Cmd_Number>2002</Cmd_Number>
+    <Waypoint_List>8501,8502,2203,2202,2201,2200,2201,2202,2203,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>ASML1 Barcode Scan Succ(2003)</MC_and_Robo_Handshake>
+    <Idx>26</Idx>
+    <Cmd_Number>2003</Cmd_Number>
+    <Waypoint_List>8501,8502,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Load Seq for Nikon LP(3000)</MC_and_Robo_Handshake>
+    <Idx>27</Idx>
+    <Cmd_Number>3000</Cmd_Number>
+    <Waypoint_List>3101,3102,3103,3104,3105,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Load Seq for POZZ LP(3200)</MC_and_Robo_Handshake>
+    <Idx>28</Idx>
+    <Cmd_Number>3200</Cmd_Number>
+    <Waypoint_List>3303,3302,3301,3300,3301,3302,3303,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Load Seq for ASML LP(3400)</MC_and_Robo_Handshake>
+    <Idx>29</Idx>
+    <Cmd_Number>3400</Cmd_Number>
+    <Waypoint_List>3503,3502,3501,3500,3501,3502,3503,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Align End Grip Place Func(4000)</MC_and_Robo_Handshake>
+    <Idx>30</Idx>
+    <Cmd_Number>4000</Cmd_Number>
+    <Waypoint_List>4200,4201,4202,4203,4204,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Align End grip Pick Func(4001)</MC_and_Robo_Handshake>
+    <Idx>31</Idx>
+    <Cmd_Number>4001</Cmd_Number>
+    <Waypoint_List>4400,4401,4402,4403,4404,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Align Center Grip Place Func(4002)</MC_and_Robo_Handshake>
+    <Idx>32</Idx>
+    <Cmd_Number>4002</Cmd_Number>
+    <Waypoint_List>4600,4601,4602,4603,4604,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Align Center grip Pick Func(4003)</MC_and_Robo_Handshake>
+    <Idx>33</Idx>
+    <Cmd_Number>4003</Cmd_Number>
+    <Waypoint_List>4888,4800,4801,4802,4803,4804,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Move from home to Cleaner(5000)</MC_and_Robo_Handshake>
+    <Idx>34</Idx>
+    <Cmd_Number>5000</Cmd_Number>
+    <Waypoint_List>1005,5200,5201</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Move to Final Cleaner Loc(5001)</MC_and_Robo_Handshake>
+    <Idx>35</Idx>
+    <Cmd_Number>5001</Cmd_Number>
+    <Waypoint_List>5202</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Move from Cleaner loc to home(5002)</MC_and_Robo_Handshake>
+    <Idx>36</Idx>
+    <Cmd_Number>5002</Cmd_Number>
+    <Waypoint_List>5203,5204,1005,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Start Move from home to PDS for Inspect(6000) </MC_and_Robo_Handshake>
+    <Idx>37</Idx>
+    <Cmd_Number>6000</Cmd_Number>
+    <Waypoint_List>6210,6200,6201,6202,6203,6204</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>PDS Inspect Finished(6001)</MC_and_Robo_Handshake>
+    <Idx>38</Idx>
+    <Cmd_Number>6001</Cmd_Number>
+    <Waypoint_List>6205,6206,6207,6208,6209,6210,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>PDS EMO Recovery(6002)</MC_and_Robo_Handshake>
+    <Idx>39</Idx>
+    <Cmd_Number>6002</Cmd_Number>
+    <Waypoint_List>6210,6200,6201,6207,6208,6209,6210,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Store in Stocker(7001)</MC_and_Robo_Handshake>
+    <Idx>40</Idx>
+    <Cmd_Number>7001</Cmd_Number>
+    <Waypoint_List>1011,1012,1013,1014,1020,7201,7202,7203,7204,7205,7206,1010,1015,1016,1017,1018,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Store in Expansion Stocker(7402)</MC_and_Robo_Handshake>
+    <Idx>41</Idx>
+    <Cmd_Number>7402</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive from Center Stocker(8001)</MC_and_Robo_Handshake>
+    <Idx>42</Idx>
+    <Cmd_Number>8001</Cmd_Number>
+    <Waypoint_List>1011,1012,1013,1014,1020,8101,8102,8104,8105,8106,1010,1015,1016,1017,1018,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Nikon BC1 Scan Pos(8002)</MC_and_Robo_Handshake>
+    <Idx>43</Idx>
+    <Cmd_Number>8002</Cmd_Number>
+    <Waypoint_List>8112,8113,8114</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Nikon BC1not found(8003)</MC_and_Robo_Handshake>
+    <Idx>44</Idx>
+    <Cmd_Number>8003</Cmd_Number>
+    <Waypoint_List>8115,8116,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Nikon BC1 Scan Succ(8004)</MC_and_Robo_Handshake>
+    <Idx>45</Idx>
+    <Cmd_Number>8004</Cmd_Number>
+    <Waypoint_List>8117</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Nikon BC2 not found(8005)</MC_and_Robo_Handshake>
+    <Idx>46</Idx>
+    <Cmd_Number>8005</Cmd_Number>
+    <Waypoint_List>8118,8119,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Nikon BC2 scan Succ(8006)</MC_and_Robo_Handshake>
+    <Idx>47</Idx>
+    <Cmd_Number>8006</Cmd_Number>
+    <Waypoint_List>8120,8121,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 1 ASML(8202) </MC_and_Robo_Handshake>
+    <Idx>48</Idx>
+    <Cmd_Number>8202</Cmd_Number>
+    <Waypoint_List>8300,8301,8302</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 1 Nikon 1(8203)</MC_and_Robo_Handshake>
+    <Idx>49</Idx>
+    <Cmd_Number>8203</Cmd_Number>
+    <Waypoint_List>8303</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 1 Nikon 2(8204)</MC_and_Robo_Handshake>
+    <Idx>50</Idx>
+    <Cmd_Number>8204</Cmd_Number>
+    <Waypoint_List>8304</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 2 ASML(8205)</MC_and_Robo_Handshake>
+    <Idx>51</Idx>
+    <Cmd_Number>8205</Cmd_Number>
+    <Waypoint_List>8305</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 2 Nikon 1(8206)</MC_and_Robo_Handshake>
+    <Idx>52</Idx>
+    <Cmd_Number>8206</Cmd_Number>
+    <Waypoint_List>8306</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 2 Nikon 2(8207)</MC_and_Robo_Handshake>
+    <Idx>53</Idx>
+    <Cmd_Number>8207</Cmd_Number>
+    <Waypoint_List>8307</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 3 ASML (8208)</MC_and_Robo_Handshake>
+    <Idx>54</Idx>
+    <Cmd_Number>8208</Cmd_Number>
+    <Waypoint_List>8308</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 3 Nikon 1(8209)</MC_and_Robo_Handshake>
+    <Idx>55</Idx>
+    <Cmd_Number>8209</Cmd_Number>
+    <Waypoint_List>8309</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 3 Nikon 2(8210)</MC_and_Robo_Handshake>
+    <Idx>56</Idx>
+    <Cmd_Number>8210</Cmd_Number>
+    <Waypoint_List>8310</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 4 ASML (8211)</MC_and_Robo_Handshake>
+    <Idx>57</Idx>
+    <Cmd_Number>8211</Cmd_Number>
+    <Waypoint_List>8311</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 4 Nikon 1 (8212)</MC_and_Robo_Handshake>
+    <Idx>58</Idx>
+    <Cmd_Number>8212</Cmd_Number>
+    <Waypoint_List>8312</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to Edge 4 Nikon 2 (8213)</MC_and_Robo_Handshake>
+    <Idx>59</Idx>
+    <Cmd_Number>8213</Cmd_Number>
+    <Waypoint_List>8313</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive BC Scan Abort (8214)</MC_and_Robo_Handshake>
+    <Idx>60</Idx>
+    <Cmd_Number>8214</Cmd_Number>
+    <Waypoint_List>8314,8315,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive BC Scan Successful (8215)</MC_and_Robo_Handshake>
+    <Idx>61</Idx>
+    <Cmd_Number>8215</Cmd_Number>
+    <Waypoint_List>8317,8318,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive Mov to ASML BC scan Pos (8402) </MC_and_Robo_Handshake>
+    <Idx>62</Idx>
+    <Cmd_Number>8402</Cmd_Number>
+    <Waypoint_List>8500,8501,8502</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive ASML BC not found(8403)</MC_and_Robo_Handshake>
+    <Idx>63</Idx>
+    <Cmd_Number>8403</Cmd_Number>
+    <Waypoint_List>8503,8504,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrive ASML BC Scan Succ(8404)</MC_and_Robo_Handshake>
+    <Idx>64</Idx>
+    <Cmd_Number>8404</Cmd_Number>
+    <Waypoint_List>8505,8506,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Expansion Retrive Seq (8602)</MC_and_Robo_Handshake>
+    <Idx>65</Idx>
+    <Cmd_Number>8602</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Cen Stocker move from home to Transit Nest(9000)</MC_and_Robo_Handshake>
+    <Idx>66</Idx>
+    <Cmd_Number>9000</Cmd_Number>
+    <Waypoint_List>1004,1002,9100,9101,9102</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Cen Stocker move from Transit Nest to home(9200)</MC_and_Robo_Handshake>
+    <Idx>67</Idx>
+    <Cmd_Number>9200</Cmd_Number>
+    <Waypoint_List>9300,9301,1002,1004,1001</Waypoint_List>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Exp Stocker move from home to Transit Nest(9400)</MC_and_Robo_Handshake>
+    <Idx>68</Idx>
+    <Cmd_Number>9400</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Exp Stocker move from Transit Nest to home(9600)</MC_and_Robo_Handshake>
+    <Idx>69</Idx>
+    <Cmd_Number>9600</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Move to R1 Home (1000)</MC_and_Robo_Handshake>
+    <Idx>70</Idx>
+    <Cmd_Number>1000</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Move to R2 Home (1111)</MC_and_Robo_Handshake>
+    <Idx>71</Idx>
+    <Cmd_Number>1111</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Store Left Stocker (7401)</MC_and_Robo_Handshake>
+    <Idx>72</Idx>
+    <Cmd_Number>7401</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Retrieve Left Stocker (8601)</MC_and_Robo_Handshake>
+    <Idx>73</Idx>
+    <Cmd_Number>8601</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>EMO Recovery Center (1002)</MC_and_Robo_Handshake>
+    <Idx>74</Idx>
+    <Cmd_Number>1002</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>EMO Recovery Right (1003)</MC_and_Robo_Handshake>
+    <Idx>75</Idx>
+    <Cmd_Number>1003</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Center Robo Status (8888)</MC_and_Robo_Handshake>
+    <Idx>76</Idx>
+    <Cmd_Number>8888</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>None</ExpMod_ID>
+  </WyPtDictNode>
+  <WyPtDictNode>
+    <MC_and_Robo_Handshake>Right Robo Status (8889)</MC_and_Robo_Handshake>
+    <Idx>77</Idx>
+    <Cmd_Number>8889</Cmd_Number>
+    <Waypoint_List/>
+    <Description/>
+    <ExpMod_ID>Exp1</ExpMod_ID>
+  </WyPtDictNode>
+</WaypointDictionary>

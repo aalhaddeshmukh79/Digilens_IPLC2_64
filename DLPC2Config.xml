@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<MasterConfigurationDLPC2>
+  <Paths>
+    <DigiBit_WG_Design_Folder>C:\projects\Digilens_IPLC</DigiBit_WG_Design_Folder>
+    <Compensated_GS_Image_Folder>C:\projects\Digilens_IPLC</Compensated_GS_Image_Folder>
+    <Nozzle_GS_Files_Head_1>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_1>
+    <Nozzle_GS_Files_Head_2>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_2>
+    <Nozzle_GS_Files_Head_3>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_3>
+    <Nozzle_GS_Files_Head_4>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_4>
+    <Nozzle_GS_Files_Head_5>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_5>
+    <Nozzle_GS_Files_Head_6>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_6>
+  </Paths>
+  <ColorPaneMapping>
+    <Head_1>
+      <Material>109G</Material>
+      <ColorPane>0-C</ColorPane>
+    </Head_1>
+    <Head_2>
+      <Material>311A</Material>
+      <ColorPane>1-M</ColorPane>
+    </Head_2>
+    <Head_3>
+      <Material>FD/OP-3</Material>
+      <ColorPane>2-Y</ColorPane>
+    </Head_3>
+    <Head_4>
+      <Material>311A</Material>
+      <ColorPane>3-K</ColorPane>
+    </Head_4>
+    <Head_5>
+      <Material>507 - 100%</Material>
+      <ColorPane>4-Blue-Spot</ColorPane>
+    </Head_5>
+    <Head_6>
+      <Material>507 - 50%</Material>
+      <ColorPane>5-Orange-Spot</ColorPane>
+    </Head_6>
+  </ColorPaneMapping>
+  <Materials>none</Materials>
+  <Materials>109G</Materials>
+  <Materials>311A</Materials>
+  <Materials>FD/OP-3</Materials>
+  <Materials>507 - 100%</Materials>
+  <Materials>507 - 50%</Materials>
+  <ColorPlanes>none</ColorPlanes>
+  <ColorPlanes>0-C</ColorPlanes>
+  <ColorPlanes>1-M</ColorPlanes>
+  <ColorPlanes>2-Y</ColorPlanes>
+  <ColorPlanes>3-K</ColorPlanes>
+  <ColorPlanes>4-Blue-Spot</ColorPlanes>
+  <ColorPlanes>5-Orange-Spot</ColorPlanes>
+</MasterConfigurationDLPC2>

@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<Motion_Controller_Config_Data>
+  <Current_Position>0</Current_Position>
+  <Pulse_Per_mm>0</Pulse_Per_mm>
+  <Load_Position_mm>0</Load_Position_mm>
+  <Laminate_Position_mm>0</Laminate_Position_mm>
+</Motion_Controller_Config_Data>

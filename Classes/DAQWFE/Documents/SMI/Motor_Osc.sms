@@ -1,0 +1,122 @@
+RUN?
+uu=0
+kk=0
+EIGN(2)
+EIGN(3)
+ZS
+cc=40000 'acceleration
+vv=10000 'velocity
+O=0
+ADT=cc
+VT=vv
+' zzz-------------------ll---------------------ppp
+ll=PA 'Read current position
+ppp=2000 + ll 'set initial stroke length, positive dir
+zzz=ll - 2000 'initial stroke 
+MP
+PT=ppp
+'tt last saved value of ppp
+tt=ppp
+O=0
+mm=0 'flag to indicate that movement has started
+
+WHILE 1
+ll=PA 'Read current position
+IF tt != ppp
+	IF d==1
+		PT=ppp
+		tt=ppp
+		IF mm==1 'if movement has already started then update ppp immediately by sending to uu=1
+			uu=1
+		ENDIF
+	ELSEIF d==0
+		PT=-ppp
+		tt=ppp
+		IF mm==1
+			uu=1
+		ENDIF
+	ENDIF
+ENDIF
+	SWITCH uu
+
+	CASE 0
+
+	BREAK
+
+	CASE 1
+		PRINT("Start Movement", #13)
+		tt=ppp
+		mm=1
+		uu=0
+		kk=1
+	BREAK
+	CASE 2
+		PRINT("Stop Movement", #13)
+		uu=0
+		kk=2
+		mm=0
+	BREAK
+	CASE 3
+	PRINT("Current Position=",ll, #13)
+	uu=0
+	BREAK
+
+	'CASE 4
+	'PRINT("Start Movement", #13)
+		'uu=1
+		'O=0
+		'mm=0
+	'BREAK
+
+	DEFAULT
+	BREAK
+ENDS
+
+
+IF k!=kk
+	SWITCH kk 'idle
+
+	CASE 0
+	k=kk
+	BREAK
+
+	CASE 1 'go to position defined by PT
+		'PRINT("IN KK = 1 state, move to position called", #13)
+		'PRINT("targetPos=",ppp, #13)
+		G
+		kk=3
+	BREAK
+	CASE 2
+	S
+	kk=0
+	BREAK
+
+	CASE 3 'check if position has reached
+	pp=PA 'read current position
+		IF pp>=ppp-2
+			PT=-ppp
+			kk=1 'start going in other direction
+			d=0 'set dir bit to negativeDir
+		ELSEIF pp<=-ppp+2
+			PT=ppp
+			kk=1 'start going in other direction
+			d=1 'set dir bit to positiveDir
+		ELSE
+			kk=4 'request position check again
+		ENDIF
+	BREAK
+
+	CASE 4
+		kk=3 'call check if position reached
+	BREAK
+
+	DEFAULT
+	k=kk
+	BREAK
+
+	ENDS
+	
+ENDIF
+
+LOOP
+END	'Obligatory (unreachable) end

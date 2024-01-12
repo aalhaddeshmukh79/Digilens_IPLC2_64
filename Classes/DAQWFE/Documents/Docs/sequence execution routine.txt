@@ -1,0 +1,52 @@
+Sequencer Operation:
+
+After the sequence has been loaded and commanded to run, commands are sent to
+the Log Engine to create a log file and start logging data.
+
+The torch motor speed is set according to the sequence file parameter.
+
+The Sequencer is then commanded to start sequence execution - set various
+controls and indicators in the Main UI, and also makes sure required constraints
+are met; for example, that the current setpoint of the first step is zero.
+
+Then the Sequencer goes to get the first sequence step for execution.
+
+After getting the first step and updating Main UI's sequence related indicators (e.g.
+Step Comment, SeqList, etc.), the Sequencer starts the processing routine
+indicated below: 
+
+---IF RAMPING---
+01. SEQ: SetLockout
+02. SEQ: MoveTurntable  (consider PosMode)
+    {IF <PosMode=Norm>,
+      Set Positioner to current step speed and direction
+      Elseif <PosMode=Abs>,
+       Set Torch position, set Positioner position}
+03. {IF <OscMode=On>,
+      Command Osc motor to run at current step freq and ampl
+      Elseif <OscMode=Off>, No Op}
+04. SEQ: ExecRampSetPoint
+Ignore -->  05. {IF <OscMode=ON>, stop Osc motor}
+06. SEQ: GetNextStep (and check for last step)
+
+---IF NOT RAMPING---
+01. SEQ: SetLockout
+02. SEQ: MoveTurntable  (consider PosMode)
+    {IF <PosMode=Norm>,
+      Set Positioner to current step speed and direction
+      Elseif <PosMode=Abs>,
+       Set Torch position, set Positioner position}
+03. {IF <OscMode=On>,
+      Command Osc motor to run at current step freq and ampl
+      Elseif <OscMode=Off>, No Op}
+04. SEQ: ExecSetPoint
+05. SEQ: Hold Set Point for step duration
+Ignore -->  06. {IF <OscMode=ON>, stop Osc motor}
+07. SEQ: GetNextStep (and check for last step)
+
+The Arc Enable is determined the same way as before from the sequence steps.
+
+If the last step is executed, the Arc Enable relay is set off, and Main UI
+indicators are updated, Log Engine is commanded to stop logging, positioner
+motor and/or oscillation motor are halted, and weld current is reset
+to zero.

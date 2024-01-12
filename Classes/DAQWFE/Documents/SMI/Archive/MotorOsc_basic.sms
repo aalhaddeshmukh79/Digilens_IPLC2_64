@@ -1,0 +1,91 @@
+RUN?
+aa=0
+uu=0
+kk=0
+k=0 'history for kk
+
+cc=500 'acceleration
+vv=10000 'velocity
+pp=0 'target position
+AT=cc
+VT=vv
+ppp=10000 'set initial stroke length
+zzz=0 'set startposition of stroke
+MP
+PT=ppp
+O=0
+
+WHILE 1
+ll=PA 'Read current position
+	SWITCH uu
+
+	CASE 0
+
+	BREAK
+
+	CASE 1
+	PRINT("Start Movement", #13)
+	PRINT("AA=",aa, #13)
+	uu=0
+	kk=1
+	BREAK
+	CASE 2
+	PRINT("Stop Movement", #13)
+	uu=0
+	kk=2
+	BREAK
+	CASE 3
+	PRINT("Current Position=",ll, #13)
+	uu=0
+	BREAK
+
+	DEFAULT
+	BREAK
+ENDS
+
+
+IF k!=kk
+	SWITCH kk 'idle
+
+	CASE 0
+	k=kk
+	BREAK
+
+	CASE 1 'go to position defined by PT
+		PRINT("IN KK = 1 state, move to position called", #13)
+		PRINT("targetPos=",pp, #13)
+		G
+		kk=3
+	BREAK
+	CASE 2
+	S
+	kk=0
+	BREAK
+
+	CASE 3 'check if position has reached
+	pp=PA 'read current position
+		IF pp>=ppp-2
+			PT=zzz
+			kk=1 'start going in other direction
+		ELSEIF pp<=zzz+2
+			PT=ppp
+			kk=1 'start going in other direction
+		ELSE
+			kk=4 'request position check again
+		ENDIF
+	BREAK
+
+	CASE 4
+		kk=3 'call check if position reached
+	BREAK
+
+	DEFAULT
+	k=kk
+	BREAK
+
+	ENDS
+	
+ENDIF
+
+LOOP
+END	'Obligatory (unreachable) end

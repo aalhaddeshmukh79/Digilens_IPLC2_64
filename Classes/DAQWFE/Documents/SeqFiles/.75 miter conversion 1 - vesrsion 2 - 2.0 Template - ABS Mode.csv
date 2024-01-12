@@ -1,0 +1,35 @@
+#SeqFileParameters,,,,,,,,,,,,,,,,,
+Motor Velocity,0.05,,,,,,,,,,,,,,,,
+Voltage Set Point,13.8,,,,,,,,,,,,,,,,
+Move Scale Factor,0.022,,,,,,,,,,,,,,,,
+Integration Time,2,,,,,,,,,,,,,,,,
+Pgain,0.1,,,,,,,,,,,,,,,,
+Igain,0.05,,,,,,,,,,,,,,,,
+Dgain,0.05,,,,,,,,,,,,,,,,
+PosMode, ABS, -->   PosMode Norm/Abs, see state table for logic,,,NOTE: can only be in either Normal Mode or Absolute Position Mode,,,,,,,,,,,
+OscMode, ON, --> Oscillation Option,On/Off,see state table for logic,,,"NOTE: optional On/Off, can be turned on when either in Normal Mode or Absolute Position Mode, or turned off completely",,,,,,,,,,
+WeldCurrentSP I/V,10,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+#SeqSteps,,,,,,,,,,,,,,,mil/sec,,
+Step Number,Step Time [S],Current [A],Ramping,AVC Lockout,Positioner Speed [RPM],Positioner Direction,Voltage Set Point Offset [V],Abs Postn Torch,Abs Postn Positioner,Oscillation Frequency [Hz],"Oscillation Amplitude [mil ""]",Comment,,,M1 speed,Pos w,calc abs pos
+1,1,0,No,On,0,CW,0,0,0,0,0,"Prepurge. Use Turntable RPM/V = ""5.500000"" in config on TT #17010040",,,  ,,
+2,1,0,No,On,0,CW,0,0,0,0,0,"Prepurge. Use Turntable RPM/V = ""4.350000"" in config on TT #17010038",,,  ,,
+3,1,40,No,On,0,CW,0,0,0,0,0,Initial Current,,,,,
+4,3,50,Yes,On,0,CW,0,0,0,0,0,Upslope,,,0,7.5,27
+5,5,52.5,Yes,Off,1.5,CW,0,155,45,5,20,Level 1,,,31,11.25,45
+6,2.5,50,Yes,Off,1.5,CW,0,263,67,5,20,Level 2A,,,43.2,11.25,63
+7,2.5,50,No,Off,1.5,CW,0,310,89,5,20,Level 2B,,,18.8,7.5,90
+8,3.5,60,Yes,Off,1.5,CW,0.5,233,120,5,20,Level 3A,,,-22,9,135
+9,4,70,Yes,Off,0.8,CW,1,133,139,5,20,Level 3B,,,-25,9,180
+10,4,85,Yes,Off,0.8,CW,1.5,43,158,5,20,Level 4A - heat up,,,-22.5,9,225
+11,2,80,Yes,Off,0.8,CW,1.5,15,167,5,20,Level 4B,,,-14,9,270
+12,2,75,Yes,Off,0.8,CW,0,1,176,5,20,Level 4C,,,-7,9,315
+13,1.5,55,Yes,Off,2,CW,-1,18,194,5,20,Level 5A - beak apex,,,11.33333333,9,360
+14,1.5,50,Yes,Off,2,CW,-1,87,212,5,20,Level 5B,,,46,15,387
+15,1.5,45,Yes,Off,2,CW,0,182,230,5,20,Level 6A - exit beak,,,63.33333333,13.75,435
+16,3,42.5,Yes,Off,1.5,CW,1,295,257,5,20,Level 6B,,,37.66666667,-20,453
+17,3,40,Yes,Off,1.5,CW,-0.5,292,284,5,20,Level 7A,,,-1,18.33333333,489
+18,3,30,Yes,Off,2,CW,-1,128,320,5,20,Downslope A,,,-54.66666667,0,489
+19,5,15,Yes,On,2,CW,0,36,380,5,20,Downslope B,,,-18.4,,
+20,5,0,No,On,0,CW,0,36,380,5,20,Post-Purge,,,0,,

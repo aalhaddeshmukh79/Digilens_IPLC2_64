@@ -1,0 +1,19 @@
+
+[AppFilePaths]
+MGI RWA Section Options=2.0.1 %04Y%02m%02d %02H%02M%S%25u*~|.%d*~|.,*~|.%#_13g
+FilePaths in.RunTimeSys?=FALSE
+FilePaths in.AppFolder=C:\projects\Digilens-IPLC
+FilePaths in.ExecutablePath=<NONE>
+FilePaths in.ConfigFolder=C:\projects\Digilens-IPLC
+FilePaths in.DataLogFolder=C:\projects\Digilens-IPLC\DataLog
+FilePaths in.SystemLogFolder=C:\projects\Digilens-IPLC\SystemLog
+FilePaths in.SeqFolder=C:\projects\Digilens-IPLC\SeqFolder
+FilePaths in.MainStartupPathname=C:\projects\Digilens-IPLC\LV_Source\Application
+FilePaths in.MainUIPathname=C:\projects\Digilens-IPLC\LV_Source\Application
+FilePaths in.SystemEventsFile=C:\projects\Digilens-IPLC\SystemLog\SystemEvents.txt
+FilePaths in.SeqEventsFile=C:\projects\Digilens-IPLC\SeqFolder\SeqEvents.txt
+FilePaths in.Config SettingsFile=C:\projects\Digilens-IPLC\MasterConfiguration.xml
+FilePaths in.DAQ IOConfigFile=C:\projects\Digilens-IPLC\IOConfig[HW].xml
+FilePaths in.SystemSimulation=FALSE
+FilePaths in.DLPUIConfigFile=
+RunTimeSys?=FALSE

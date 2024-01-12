@@ -1,0 +1,4 @@
+TimeIntv,Current,Lockout,UseSlope,TimeSlope,TurntableSpd
+5.2,250,Off,FALSE,0,0
+6.4,268,On,TRUE,15,2.35
+54.4,145,Off,TRUE,-4.7,1.88

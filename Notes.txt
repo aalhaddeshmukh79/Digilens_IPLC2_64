@@ -1,0 +1,12 @@
+1/10/2024: Replace IO APIs with DAQ APIs example, API: Purge PH
+
+
+Download Nuget.exe from :
+
+add the path to the exe in the Path System Env Variable
+
+open a commamd line interface
+
+use the following command to install bitmiracle
+
+C:\Nuget>nuget install bitmiracle.libtiff.net -version 2.4.649 -o C:\Nuget

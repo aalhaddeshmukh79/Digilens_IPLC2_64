@@ -1,0 +1,512 @@
+<?xml version="1.0" standalone="yes"?>
+<Digilens_IPLC_Config>
+  <Motion_Controller>
+    <Motor_IP_Addresss>192.168.1.12</Motor_IP_Addresss>
+    <Current_Position>2</Current_Position>
+    <Pulse_Per_mm>100</Pulse_Per_mm>
+    <Load_Position_mm>0</Load_Position_mm>
+    <Laminate_Position_mm>2</Laminate_Position_mm>
+  </Motion_Controller>
+  <IO_Config>
+    <DAQDevices>
+      <COM>COM12</COM>
+      <DeviceName>ICP2-DI</DeviceName>
+      <BaudRate>115200</BaudRate>
+      <Number_of_Channels>16</Number_of_Channels>
+      <DeviceAddress>2</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DAQDevices>
+      <COM>COM12</COM>
+      <DeviceName>ICP2-DO</DeviceName>
+      <BaudRate>115200</BaudRate>
+      <Number_of_Channels>32</Number_of_Channels>
+      <DeviceAddress>3</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DAQDevices>
+      <COM>COM10</COM>
+      <DeviceName>ICP1-DO</DeviceName>
+      <BaudRate>115200</BaudRate>
+      <Number_of_Channels>16</Number_of_Channels>
+      <DeviceAddress>4</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DAQDevices>
+      <COM>COM10</COM>
+      <DeviceName>ICP1-AI</DeviceName>
+      <BaudRate>115600</BaudRate>
+      <Number_of_Channels>8</Number_of_Channels>
+      <DeviceAddress>2</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DAQDevices>
+      <COM>COM10</COM>
+      <DeviceName>ICP1-AO</DeviceName>
+      <BaudRate>115200</BaudRate>
+      <Number_of_Channels>8</Number_of_Channels>
+      <DeviceAddress>3</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DAQDevices>
+      <COM>COM12</COM>
+      <DeviceName>ICP2-AO</DeviceName>
+      <BaudRate>115200</BaudRate>
+      <Number_of_Channels>8</Number_of_Channels>
+      <DeviceAddress>4</DeviceAddress>
+      <Enable>true</Enable>
+    </DAQDevices>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R1</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>16</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R2</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>1</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R3</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>2</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R4</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>3</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R5</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>4</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Ink Valve - R6</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>5</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - COVER INPUT SIDE</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>6</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - COVER OUTPUT SIDE</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>7</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R1</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>10</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R2</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>11</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R3</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>12</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R4</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>13</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R5</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>14</Channel_No>
+    </DI_Channels>
+    <DI_Channels>
+      <Channel_Name>SW - Purge - R6</Channel_Name>
+      <Device_Name>ICP2-DI</Device_Name>
+      <Channel_No>15</Channel_No>
+    </DI_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R1</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>0</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R2</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>1</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R3</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>2</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R4</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>3</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R5</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>4</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Pressure Reg PWR - R6</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>5</Channel_No>
+    </DO_Channels>
+	<DO_Channels>
+      <Channel_Name>Clear Stage Alarm</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>6</Channel_No>
+    </DO_Channels>
+	<DO_Channels>
+      <Channel_Name>Servo ON</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>7</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R1</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>10</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R2</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>11</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R3</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>12</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R4</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>13</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R5</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>14</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Purge Valve Open - R6</Channel_Name>
+      <Device_Name>ICP1-DO</Device_Name>
+      <Channel_No>15</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R1</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>0</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R2</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>1</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R3</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>2</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R4</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>3</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R5</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>4</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Meniscus Valve Open - R6</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>5</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R1</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>10</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R2</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>11</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R3</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>12</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R4</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>13</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R5</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>14</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Ink Flow Valve Open - R6</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>15</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R1</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>16</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R2</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>17</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R3</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>18</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R1</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>20</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R2</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>21</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R3</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>22</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R4</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>23</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R5</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>24</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>Recirc Pump On - R6</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>25</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R4</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>26</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R5</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>27</Channel_No>
+    </DO_Channels>
+    <DO_Channels>
+      <Channel_Name>SW_LED - Ink Valve - R6</Channel_Name>
+      <Device_Name>ICP2-DO</Device_Name>
+      <Channel_No>28</Channel_No>
+    </DO_Channels>
+    <Material_Names>none</Material_Names>
+    <Material_Names>113A.3</Material_Names>
+    <Material_Names>507.2-1</Material_Names>
+    <Material_Names>109G</Material_Names>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R1</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>0</Channel_No>
+    </AI_Channels>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R2</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>1</Channel_No>
+    </AI_Channels>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R3</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>2</Channel_No>
+    </AI_Channels>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R4</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>3</Channel_No>
+    </AI_Channels>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R5</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>4</Channel_No>
+    </AI_Channels>
+    <AI_Channels>
+      <Channel_Name>Meniscus Pressure Read - R6</Channel_Name>
+      <Device_Name>ICP1-AI</Device_Name>
+      <Channel_No>5</Channel_No>
+    </AI_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R1</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>0</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R2</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>1</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R3</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>2</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R4</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>3</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R5</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>4</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Meniscus Pressure Set - R6</Channel_Name>
+      <Device_Name>ICP1-AO</Device_Name>
+      <Channel_No>5</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R1</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>0</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R2</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>1</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R3</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>2</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R4</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>3</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R5</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>4</Channel_No>
+    </AO_Channels>
+    <AO_Channels>
+      <Channel_Name>Recirc Pump Flow Set - R6</Channel_Name>
+      <Device_Name>ICP2-AO</Device_Name>
+      <Channel_No>5</Channel_No>
+    </AO_Channels>
+  </IO_Config>
+  <PrinterConfiguration>
+    <IPAddress>localhost</IPAddress>
+    <Move_Stage_on_RTP_Command>true</Move_Stage_on_RTP_Command>
+    <Stage_Move_Position>Laminate</Stage_Move_Position>
+	<PH1-Prime_Path>C:\Projects\Digilens-IPLC\Scripts\PH1-PRIME.txt</PH1-Prime_Path>
+    <PH2-Prime_Path>C:\Projects\Digilens-IPLC\Scripts\PH2-PRIME.txt</PH2-Prime_Path>
+    <PH3-Prime_Path>C:\projects\Digilens-IPLC\Scripts\PH3-PRIME.txt</PH3-Prime_Path>
+    <PH4-Prime_Path>C:\projects\Digilens-IPLC\Scripts\PH4-PRIME.txt</PH4-Prime_Path>
+    <PH5-Prime_Path>C:\projects\Digilens-IPLC\Scripts\PH5-PRIME.txt</PH5-Prime_Path>
+    <PH6-Prime_Path>C:\projects\Digilens-IPLC\Scripts\PH6-PRIME.txt</PH6-Prime_Path>
+	<PrintScriptsFolder>C:\projects\Digilens-IPLC\Scripts\</PrintScriptsFolder>
+    <PurgeScriptsFolder>C:\projects\Digilens-IPLC\Scripts\</PurgeScriptsFolder>
+    <StageScriptsFolder>C:\projects\Digilens-IPLC\Scripts\</StageScriptsFolder>
+	<PH1-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH1-TEMP-ON.txt</PH1-HeatOn_Path>
+    <PH2-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH2-TEMP-ON.txt</PH2-HeatOn_Path>
+    <PH3-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH3-TEMP-ON.txt</PH3-HeatOn_Path>
+    <PH4-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH4-TEMP-ON.txt</PH4-HeatOn_Path>
+    <PH5-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH5-TEMP-ON.txt</PH5-HeatOn_Path>
+    <PH6-HeatOn_Path>C:\Users\labuser\Desktop\Scripts\PH6-TEMP-ON.txt</PH6-HeatOn_Path>
+	<PH1-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH1-TEMP-OFF.txt</PH1-HeatOff_Path>
+    <PH2-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH2-TEMP-OFF.txt</PH2-HeatOff_Path>
+    <PH3-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH3-TEMP-OFF.txt</PH3-HeatOff_Path>
+    <PH4-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH4-TEMP-OFF.txt</PH4-HeatOff_Path>
+    <PH5-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH5-TEMP-OFF.txt</PH5-HeatOff_Path>
+    <PH6-HeatOff_Path>C:\Users\labuser\Desktop\Scripts\PH6-TEMP-OFF.txt</PH6-HeatOff_Path>
+  </PrinterConfiguration>
+   <DAQ_Settings>
+    <Simulate_DAQ>false</Simulate_DAQ>
+    <DI_Settings>
+      <Disable>false</Disable>
+      <DI_TaskName>DITask_1</DI_TaskName>
+      <DI_RefreshIntv>100</DI_RefreshIntv>
+    </DI_Settings>
+    <AI_Settings>
+      <Disable>false</Disable>
+      <AI_TaskName>AITask_1</AI_TaskName>
+      <AI_InstSettings>
+        <DaqRate>10</DaqRate>
+        <NumSamples>1</NumSamples>
+      </AI_InstSettings>
+      <SimAI_Ranges>
+        <lo>4</lo>
+        <hi>20</hi>
+      </SimAI_Ranges>
+    </AI_Settings>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R1</Relay_IONames>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R2</Relay_IONames>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R3</Relay_IONames>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R4</Relay_IONames>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R5</Relay_IONames>
+    <Relay_IONames>Meniscus Pressure Reg PWR - R6</Relay_IONames>
+    <Relay_IONames>SV2 Servo Enable</Relay_IONames>
+    <Relay_IONames>SV2 Servo ON</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R1</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R2</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R3</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R4</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R5</Relay_IONames>
+    <Relay_IONames>Purge Valve Open - R6</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R1</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R2</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R3</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R4</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R5</Relay_IONames>
+    <Relay_IONames>Meniscus Valve Open - R6</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R1</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R2</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R3</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R4</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R5</Relay_IONames>
+    <Relay_IONames>Ink Flow Valve Open - R6</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R1</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R2</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R3</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R4</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R5</Relay_IONames>
+    <Relay_IONames>Recirc Pump On - R6</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R1</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R2</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R3</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R4</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R5</Relay_IONames>
+    <Relay_IONames>LED - Ink Valve Switch - R6</Relay_IONames>
+    <AO_IONames>Meniscus Pressure Set - R1</AO_IONames>
+    <AO_IONames>Meniscus Pressure Set - R2</AO_IONames>
+    <AO_IONames>Meniscus Pressure Set - R3</AO_IONames>
+    <AO_IONames>Meniscus Pressure Set - R4</AO_IONames>
+    <AO_IONames>Meniscus Pressure Set - R5</AO_IONames>
+    <AO_IONames>Meniscus Pressure Set - R6</AO_IONames>
+	<AO_IONames>Meniscus Vac Pump Speed</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R1</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R2</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R3</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R4</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R5</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R6</AO_IONames>
+    <AO_NChan_SingleTask>false</AO_NChan_SingleTask>
+  </DAQ_Settings>
+</Digilens_IPLC_Config>

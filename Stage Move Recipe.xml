@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<Recipe>
+  <Batch_Move>
+    <Cycles>5</Cycles>
+    <Move>
+      <Index_mm>100</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>10</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>100</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>10</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+  </Batch_Move>
+  <Batch_Move>
+    <Cycles>2</Cycles>
+    <Move>
+      <Index_mm>50</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>10</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>50</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+    <Move>
+      <Index_mm>10</Index_mm>
+      <Speed_mm_s>5</Speed_mm_s>
+    </Move>
+  </Batch_Move>
+</Recipe>
