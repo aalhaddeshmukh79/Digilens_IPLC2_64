@@ -1,0 +1,17 @@
+
+
+I,18,H,
+<?xml version="1.0" encoding="utf-8"?><PrintHeadStatusXML>    
+	<PrintManager Name="Print Manager" NodeName="PrintManager" Type="1">        
+		<PrintLineManager Name="Print Line Manager" NodeName="PrintLineManager" Type="2">            
+			<PrintManagerBoard Name="PMB-KM" NodeName="PrintManagerBoard" Type="3">                
+				<H Name="HIB1-KM1024i" NodeName="HIB" Type="4" Handle="000001B03748C210" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.40000000"/>                
+				<H Name="HIB2-KM1024i" NodeName="HIB" Type="4" Handle="000001B03904CD00" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.20000000"/>                
+				<H Name="HIB3-KM1024i" NodeName="HIB" Type="4" Handle="000001B03AB59010" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.40000000"/>                
+				<H Name="HIB4-KM1024i" NodeName="HIB" Type="4" Handle="000001B03BFC6030" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.20000000"/>                
+				<H Name="HIB5-KM1024i" NodeName="HIB" Type="4" Handle="000001B03CF9BF40" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.20000000"/>                
+				<H Name="HIB6-KM1024i" NodeName="HIB" Type="4" Handle="000001B03DF5A440" HeadEnabled="True" SpitEnabled="True" Status="16" HeaterEnabled="True" TargetTemperature="0.00000000" CurrentTemperature="23.10000000"/>            
+			</PrintManagerBoard>        
+		</PrintLineManager>    
+	</PrintManager>
+</PrintHeadStatusXML>

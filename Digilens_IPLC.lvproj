@@ -56,6 +56,29 @@
 			<Item Name="TD Raw Counts SmartMotor--cluster.ctl" Type="VI" URL="../Classes/DAQWFE/LV_Source/DataTypes/TD Raw Counts SmartMotor--cluster.ctl"/>
 			<Item Name="TurntableType--enum.ctl" Type="VI" URL="../Classes/DAQWFE/LV_Source/DataTypes/TurntableType--enum.ctl"/>
 			<Item Name="UI Controls-Indicators Labels--cluster.ctl" Type="VI" URL="../Classes/DAQWFE/LV_Source/DataTypes/UI Controls-Indicators Labels--cluster.ctl"/>
+			<Item Name="DCON Action Engine-States.ctl" Type="VI" URL="../Classes/IO/Typedefs/DCON Action Engine-States.ctl"/>
+			<Item Name="HeadHeaterTemperatureEnable--Cluster.ctl" Type="VI" URL="../Common/Controls/HeadHeaterTemperatureEnable--Cluster.ctl"/>
+			<Item Name="SystemStatus_HT_R--cluster.ctl" Type="VI" URL="../Common/Controls/SystemStatus_HT_R--cluster.ctl"/>
+			<Item Name="Checkbox_128.ctl" Type="VI" URL="../Icons/Checkbox_128.ctl"/>
+			<Item Name="Checkbox_64.ctl" Type="VI" URL="../Icons/Checkbox_64.ctl"/>
+			<Item Name="BlueCheckBox_64.ctl" Type="VI" URL="../Icons/BlueCheckBox_64.ctl"/>
+			<Item Name="SeperateLayersPython--cluster.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/SeperateLayersPython--cluster.ctl"/>
+			<Item Name="PythonVersion--Enum.ctl" Type="VI" URL="../Common/Controls/PythonVersion--Enum.ctl"/>
+			<Item Name="GenericEventData--Cluster.ctl" Type="VI" URL="../Common/Controls/GenericEventData--Cluster.ctl"/>
+			<Item Name="PollCommandData-Cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/PollCommandData-Cluster.ctl"/>
+			<Item Name="HeadEnableStatus--cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/HeadEnableStatus--cluster.ctl"/>
+			<Item Name="Enable.ctl" Type="VI" URL="../Icons/Enable.ctl"/>
+			<Item Name="Clear.ctl" Type="VI" URL="../Icons/Clear.ctl"/>
+			<Item Name="lefticons.ctl" Type="VI" URL="../Icons/lefticons.ctl"/>
+			<Item Name="righticons.ctl" Type="VI" URL="../Icons/righticons.ctl"/>
+			<Item Name="Home.ctl" Type="VI" URL="../Icons/Home.ctl"/>
+			<Item Name="Abort.ctl" Type="VI" URL="../Icons/Abort.ctl"/>
+			<Item Name="go_button.ctl" Type="VI" URL="../Icons/go_button.ctl"/>
+			<Item Name="repeat.ctl" Type="VI" URL="../Icons/repeat.ctl"/>
+			<Item Name="Load.ctl" Type="VI" URL="../Icons/Load.ctl"/>
+			<Item Name="Images--Cluster.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/Images--Cluster.ctl"/>
+			<Item Name="TD DAQ DI state change ev.ctl" Type="VI" URL="../Classes/DAQWFE/LV_Source/Subsystems/DAQ/DataTypes/TD DAQ DI state change ev.ctl"/>
+			<Item Name="TD FireDIStateChangeEventTrigger--cluster.ctl" Type="VI" URL="../Classes/DAQWFE/LV_Source/Subsystems/DAQ/DataTypes/TD FireDIStateChangeEventTrigger--cluster.ctl"/>
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ReadbackQuery--Cluster.ctl" Type="VI" URL="../Classes/IO/Typedefs/ReadbackQuery--Cluster.ctl"/>
@@ -68,7 +91,40 @@
 			<Item Name="TD MasterConfiguration DLPC2--cluster.ctl" Type="VI" URL="../Common/Controls/TD MasterConfiguration DLPC2--cluster.ctl"/>
 			<Item Name="TD HeadColorPaneMappingAll--cluster.ctl" Type="VI" URL="../Common/Controls/TD HeadColorPaneMappingAll--cluster.ctl"/>
 		</Item>
-		<Item Name="DCON Action Engine-States.ctl" Type="VI" URL="../Classes/IO/Typedefs/DCON Action Engine-States.ctl"/>
+		<Item Name="XML" Type="Folder">
+			<Item Name="GISStatus_XML_Read.vi" Type="VI" URL="../Common/GISStatus_XML_Read.vi"/>
+			<Item Name="DLP2Recipe_XML_Read.vi" Type="VI" URL="../Common/DLP2Recipe_XML_Read.vi"/>
+			<Item Name="DLP2Recipe_XML_Write.vi" Type="VI" URL="../Common/DLP2Recipe_XML_Write.vi"/>
+			<Item Name="Sortrecipestypes.vi" Type="VI" URL="../Common/Sortrecipestypes.vi"/>
+			<Item Name="DLPConfigInitialization_XML_Read.vi" Type="VI" URL="../Common/DLPConfigInitialization_XML_Read.vi"/>
+			<Item Name="DLP_CalibrationPrints_XML_Read.vi" Type="VI" URL="../Common/DLP_CalibrationPrints_XML_Read.vi"/>
+			<Item Name="DLP_RecipePrints_XML_Read.vi" Type="VI" URL="../Common/DLP_RecipePrints_XML_Read.vi"/>
+			<Item Name="GetXMLNodeAttributes.vi" Type="VI" URL="../Common/GetXMLNodeAttributes.vi"/>
+			<Item Name="XML Build Entity__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Build Entity__JKI EasyXML.vi"/>
+		</Item>
+		<Item Name="To Be Sorted" Type="Folder">
+			<Item Name="WriteConfig.vi" Type="VI" URL="../Classes/WriteConfig.vi"/>
+			<Item Name="SetJogSpeed.vi" Type="VI" URL="../Classes/Motor Controller/Methods/SetJogSpeed.vi"/>
+			<Item Name="tiff meta data test.vi" Type="VI" URL="../../../Users/Aalhad/Desktop/Files/tiff meta data test.vi"/>
+			<Item Name="Read Tiff File (Bitmiracle libtiff.net).vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net).vi"/>
+			<Item Name="WriteDLP2Config.vi" Type="VI" URL="../Common/Support/WriteDLP2Config.vi"/>
+			<Item Name="PurgeMode--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PurgeMode--Enum.ctl"/>
+			<Item Name="TiffImageData--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/TiffImageData--Cluster.ctl"/>
+			<Item Name="AdvPrinterControl--Tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/AdvPrinterControl--Tabs.ctl"/>
+			<Item Name="PrinterHeads--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PrinterHeads--Enum.ctl"/>
+			<Item Name="SpitVoltages--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/SpitVoltages--Cluster.ctl"/>
+			<Item Name="SettinsgTabs--Tab.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/SettinsgTabs--Tab.ctl"/>
+			<Item Name="FG - StatusStrRef.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/FG - StatusStrRef.vi"/>
+			<Item Name="FG - FilePathnames.vi" Type="VI" URL="../Classes/DAQWFE/FG - FilePathnames.vi"/>
+			<Item Name="format status message v2.vi" Type="VI" URL="/&lt;vilib&gt;/TELLC/Misc Utilities/format status message v2.vi"/>
+			<Item Name="LoadAll.vi" Type="VI" URL="../LoadAll.vi"/>
+			<Item Name="MainTabs--tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/MainTabs--tabs.ctl"/>
+			<Item Name="BitMiracle.LibTiff.NET.dll" Type="Document" URL="../../../Nuget/BitMiracle.LibTiff.NET.2.4.649/lib/net40/BitMiracle.LibTiff.NET.dll"/>
+			<Item Name="Read Tiff File (Bitmiracle libtiff.net)_v2.vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net)_v2.vi"/>
+			<Item Name="GIS_PollTimers--cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS_PollTimers--cluster.ctl"/>
+			<Item Name="GIS Status--Cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS Status--Cluster.ctl"/>
+			<Item Name="HeadHeaterTemperatureSet--Cluster.ctl" Type="VI" URL="../Common/Controls/HeadHeaterTemperatureSet--Cluster.ctl"/>
+		</Item>
 		<Item Name="GIS Printer.lvclass" Type="LVClass" URL="../Classes/GIS Printer/GIS Printer.lvclass"/>
 		<Item Name="Motor Controller.lvclass" Type="LVClass" URL="../Classes/Motor Controller/Motor Controller.lvclass"/>
 		<Item Name="TopLevel.lvclass" Type="LVClass" URL="../Classes/TopLevel/TopLevel.lvclass"/>
@@ -77,26 +133,43 @@
 		<Item Name="DLP2.lvclass" Type="LVClass" URL="../Classes/DLP2/DLP2.lvclass"/>
 		<Item Name="DAQ.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Subsystems/DAQ/DAQ.lvclass"/>
 		<Item Name="DataQueues.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Support/DataQueues/DataQueues.lvclass"/>
-		<Item Name="WriteConfig.vi" Type="VI" URL="../Classes/WriteConfig.vi"/>
-		<Item Name="SetJogSpeed.vi" Type="VI" URL="../Classes/Motor Controller/Methods/SetJogSpeed.vi"/>
-		<Item Name="tiff meta data test.vi" Type="VI" URL="../../../Users/Aalhad/Desktop/Files/tiff meta data test.vi"/>
-		<Item Name="Read Tiff File (Bitmiracle libtiff.net).vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net).vi"/>
-		<Item Name="WriteDLP2Config.vi" Type="VI" URL="../Common/Support/WriteDLP2Config.vi"/>
-		<Item Name="PurgeMode--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PurgeMode--Enum.ctl"/>
-		<Item Name="TiffImageData--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/TiffImageData--Cluster.ctl"/>
-		<Item Name="AdvPrinterControl--Tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/AdvPrinterControl--Tabs.ctl"/>
-		<Item Name="PrinterHeads--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PrinterHeads--Enum.ctl"/>
-		<Item Name="SpitVoltages--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/SpitVoltages--Cluster.ctl"/>
-		<Item Name="SettinsgTabs--Tab.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/SettinsgTabs--Tab.ctl"/>
-		<Item Name="FG - StatusStrRef.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/FG - StatusStrRef.vi"/>
-		<Item Name="FG - FilePathnames.vi" Type="VI" URL="../Classes/DAQWFE/FG - FilePathnames.vi"/>
-		<Item Name="XML Build Entity__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Build Entity__JKI EasyXML.vi"/>
-		<Item Name="format status message v2.vi" Type="VI" URL="/&lt;vilib&gt;/TELLC/Misc Utilities/format status message v2.vi"/>
+		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
-		<Item Name="LoadAll.vi" Type="VI" URL="../LoadAll.vi"/>
-		<Item Name="MainTabs--tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/MainTabs--tabs.ctl"/>
-		<Item Name="BitMiracle.LibTiff.NET.dll" Type="Document" URL="../../../Nuget/BitMiracle.LibTiff.NET.2.4.649/lib/net40/BitMiracle.LibTiff.NET.dll"/>
-		<Item Name="Read Tiff File (Bitmiracle libtiff.net)_v2.vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net)_v2.vi"/>
+		<Item Name="Create Write DLPConfig2.vi" Type="VI" URL="../Common/Utilities/Util/Create Write DLPConfig2.vi"/>
+		<Item Name="CreateImages.vi" Type="VI" URL="../Common/Support/CreateImages.vi"/>
+		<Item Name="DLP2Recipe.ctl" Type="VI" URL="../Common/Controls/DLP2Recipe.ctl"/>
+		<Item Name="DLP2RecipeV2.ctl" Type="VI" URL="../Common/Controls/DLP2RecipeV2.ctl"/>
+		<Item Name="PPP_Python--cluster.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/PPP_Python--cluster.ctl"/>
+		<Item Name="recipe.ctl" Type="VI" URL="../Icons/recipe.ctl"/>
+		<Item Name="DIO.ctl" Type="VI" URL="../Icons/DIO.ctl"/>
+		<Item Name="GetHeadFromPurgeSwitchName.vi" Type="VI" URL="../Classes/TopLevel/Methods/GetHeadFromPurgeSwitchName.vi"/>
+		<Item Name="DLPConfig_Initialization.ctl" Type="VI" URL="../Common/Controls/DLPConfig_Initialization.ctl"/>
+		<Item Name="DLPConfig_CalibrationPrints.ctl" Type="VI" URL="../Common/Controls/DLPConfig_CalibrationPrints.ctl"/>
+		<Item Name="DLPConfig_RecipePrints.ctl" Type="VI" URL="../Common/Controls/DLPConfig_RecipePrints.ctl"/>
+		<Item Name="ADODBCommand Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Destroy.vi"/>
+		<Item Name="DLPConfig)Init_HeadPropertyAttr--Cluster.ctl" Type="VI" URL="../Common/Controls/DLPConfig)Init_HeadPropertyAttr--Cluster.ctl"/>
+		<Item Name="APIReturnCluster--Cluster.ctl" Type="VI" URL="../Common/Controls/APIReturnCluster--Cluster.ctl"/>
+		<Item Name="TD Sync API Event Data.ctl" Type="VI" URL="../Common/Controls/TD Sync API Event Data.ctl"/>
+		<Item Name="TD Async CmdMsg EventData--cluster.ctl" Type="VI" URL="../Common/Controls/TD Async CmdMsg EventData--cluster.ctl"/>
+		<Item Name="Read Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Read Startup INI.vi"/>
+		<Item Name="Write Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Write Startup INI.vi"/>
+		<Item Name="SQL Execute.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Execute.vi"/>
+		<Item Name="SQL Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Open.vi"/>
+		<Item Name="SQL Close.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Close.vi"/>
+		<Item Name="BuildUpdateQuery.vi" Type="VI" URL="../Classes/Database/Util/BuildUpdateQuery.vi"/>
+		<Item Name="TD Sync API Task State.ctl" Type="VI" URL="../Common/Controls/TD Sync API Task State.ctl"/>
+		<Item Name="DLP RecipeTypesData--Cluster.ctl" Type="VI" URL="../Common/Controls/DLP RecipeTypesData--Cluster.ctl"/>
+		<Item Name="RecipesFolderSummary--Cluster.ctl" Type="VI" URL="../Common/Controls/RecipesFolderSummary--Cluster.ctl"/>
+		<Item Name="TestSortedRecipeFOlderData.vi" Type="VI" URL="../Common/Support/TestSortedRecipeFOlderData.vi"/>
+		<Item Name="RecipeInfo--Cluster.ctl" Type="VI" URL="../Common/Controls/RecipeInfo--Cluster.ctl"/>
+		<Item Name="Clear2.ctl" Type="VI" URL="../Icons/Clear2.ctl"/>
+		<Item Name="DLP2_PrinterHeadProperties.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/DLP2_PrinterHeadProperties.ctl"/>
+		<Item Name="DLP2_PrinterMaterialProperties.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/DLP2_PrinterMaterialProperties.ctl"/>
+		<Item Name="DLP2_PrinterCompensationProperties.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/DLP2_PrinterCompensationProperties.ctl"/>
+		<Item Name="DLP_MaterialToHeadMapping--Cluster.ctl" Type="VI" URL="../Common/Controls/DLP_MaterialToHeadMapping--Cluster.ctl"/>
+		<Item Name="Persistent_XML_Read.vi" Type="VI" URL="../Common/Persistent_XML_Read.vi"/>
+		<Item Name="Persistent_XML_Write.vi" Type="VI" URL="../Common/Persistent_XML_Write.vi"/>
+		<Item Name="PersistentData--Cluster.ctl" Type="VI" URL="../Common/Controls/PersistentData--Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -477,6 +550,46 @@
 				<Item Name="MGI Coerce Rect into Bounds.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Picture &amp; Image/MGI Coerce Rect into Bounds.vi"/>
 				<Item Name="MGI Is Runtime.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Is Runtime.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
+				<Item Name="Set Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Cluster Element by Name__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (LVObject)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (LVObject)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U64)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (I64)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (U64)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (I64)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (Variant)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U32)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U16)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U8)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (String)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (SGL)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (Path)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (I32)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (I16)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (I8)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (EXT)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (DBL)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (CXT)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (CSG)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (CDB)__ogtk.vi"/>
+				<Item Name="Index 2D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (Boolean)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Variant)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (U32)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (U16)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (U8)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (String)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (SGL)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Path)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (I32)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (I16)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (I8)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (EXT)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (DBL)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CXT)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CSG)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
+				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State to Queue with vData.vi" Type="VI" URL="/&lt;vilib&gt;/TELLC/SMQ/Add State to Queue with vData.vi"/>
@@ -882,28 +995,26 @@
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
-			<Item Name="TD Sync API Task State.ctl" Type="VI" URL="../Common/Controls/TD Sync API Task State.ctl"/>
-			<Item Name="APIReturnCluster--Cluster.ctl" Type="VI" URL="../Common/Controls/APIReturnCluster--Cluster.ctl"/>
-			<Item Name="TD Sync API Event Data.ctl" Type="VI" URL="../Common/Controls/TD Sync API Event Data.ctl"/>
-			<Item Name="TD Async CmdMsg EventData--cluster.ctl" Type="VI" URL="../Common/Controls/TD Async CmdMsg EventData--cluster.ctl"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
 			<Item Name="ADODBConnection Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Open.vi"/>
 			<Item Name="ADODBConnection Create.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Create.vi"/>
-			<Item Name="SQL Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Open.vi"/>
 			<Item Name="ADODBConnection Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Destroy.vi"/>
 			<Item Name="ADODBConnection Close.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Close.vi"/>
-			<Item Name="SQL Close.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Close.vi"/>
 			<Item Name="BuildDeleteQuery.vi" Type="VI" URL="../Classes/Database/Util/BuildDeleteQuery.vi"/>
-			<Item Name="ADODBCommand Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Destroy.vi"/>
 			<Item Name="ADODBRecordset Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBRecordset Destroy.vi"/>
 			<Item Name="ADODBCommand Execute.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Execute.vi"/>
 			<Item Name="ADODBCommand Set Command Text.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Set Command Text.vi"/>
 			<Item Name="ADODBCommand Set Active Connection.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Set Active Connection.vi"/>
 			<Item Name="ADODBCommand Create.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Create.vi"/>
-			<Item Name="SQL Execute.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Execute.vi"/>
-			<Item Name="BuildUpdateQuery.vi" Type="VI" URL="../Classes/Database/Util/BuildUpdateQuery.vi"/>
 			<Item Name="ADODBField Get String Value.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBField Get String Value.vi"/>
 			<Item Name="ADODBFields Item.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBFields Item.vi"/>
 			<Item Name="ADODBFields Get Count.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBFields Get Count.vi"/>
@@ -935,12 +1046,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Read Startup INI.vi"/>
-			<Item Name="Write Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Write Startup INI.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 			<Item Name="Toggle DO Line.vi" Type="VI" URL="../Classes/DAQ_Common/Lib/NIDAQ/Toggle DO Line.vi"/>
 			<Item Name="Actuate Digital Line.vi" Type="VI" URL="../Classes/DAQ_Common/Lib/NIDAQ/Actuate Digital Line.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
@@ -950,6 +1058,13 @@
 			<Item Name="EEIP.dll" Type="Document" URL="../Classes/Motor Controller/EEIP.dll"/>
 			<Item Name="ImageResolution--enum.ctl" Type="VI" URL="../Common/Controls/ImageResolution--enum.ctl"/>
 			<Item Name="Imageresolution--cluster.ctl" Type="VI" URL="../Common/Controls/Imageresolution--cluster.ctl"/>
+			<Item Name="HeadButton.ctl" Type="VI" URL="../Icons/HeadButton.ctl"/>
+			<Item Name="GreenControl_64.ctl" Type="VI" URL="../Icons/GreenControl_64.ctl"/>
+			<Item Name="Tab Control Ref.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Subsystems/DAQ/Support/Tab Control Ref.vi"/>
+			<Item Name="GetPrimeConfigKeys.vi" Type="VI" URL="../Classes/TopLevel/GetPrimeConfigKeys.vi"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="PresentationCore" Type="VI" URL="PresentationCore">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

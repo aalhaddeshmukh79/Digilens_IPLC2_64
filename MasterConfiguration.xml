@@ -488,12 +488,12 @@
     <Relay_IONames>Recirc Pump On - R4</Relay_IONames>
     <Relay_IONames>Recirc Pump On - R5</Relay_IONames>
     <Relay_IONames>Recirc Pump On - R6</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R1</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R2</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R3</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R4</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R5</Relay_IONames>
-    <Relay_IONames>LED - Ink Valve Switch - R6</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R1</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R2</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R3</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R4</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R5</Relay_IONames>
+    <Relay_IONames>SW_LED - Ink Valve - R6</Relay_IONames>
     <AO_IONames>Meniscus Pressure Set - R1</AO_IONames>
     <AO_IONames>Meniscus Pressure Set - R2</AO_IONames>
     <AO_IONames>Meniscus Pressure Set - R3</AO_IONames>

@@ -1,0 +1,76 @@
+<DLP>
+	<PrinterInitialization>
+		<VacPumpSet VacPumpEnable="True" VacPumpSpeed="100"/>
+		<HIBEnable HIB1Enable="True" HIB2Enable="True" HIB3Enable="True" HIB4Enable="True" HIB5Enable="False" HIB6Enable="False"/>
+	</PrinterInitialization>
+	<HeadSet>
+		<HeadProperties HeadNumber="1" Material="113A" HeadLocalX="71.40" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="14.10" VH2R="14.10" VH1LA="7.40" VH1LB="7.40"  VH1RA="7.50" VH1RB="7.00"/>
+		<HeadProperties HeadNumber="2" Material="109G" HeadLocalX="151.25" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="14.00" VH2R="14.00" VH1LA="8.00" VH1LB="7.50" VH1RA="7.60" VH1RB="7.00"/>
+		<HeadProperties HeadNumber="3" Material="509-2.1 100%" HeadLocalX="231.40" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="14.20" VH2R="14.20" VH1LA="7.10" VH1LB="8.10" VH1RA="7.30" VH1RB="7.70" />
+		<HeadProperties HeadNumber="4" Material="509-2.1 70-30" HeadLocalX="311.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="14.10" VH2R="14.10" VH1LA="7.00" VH1LB="7.00" VH1RA="8.10" VH1RB="7.40"/>
+		<HeadProperties HeadNumber="5" Material="None" HeadLocalX="391.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="13.90" VH2R="13.90" VH1LA="7.10" VH1LB="6.90" VH1RA="7.50" VH1RB="7.40"/>
+		<HeadProperties HeadNumber="6" Material="None" HeadLocalX="471.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L="14.50" VH2R="14.50" VH1LA="7.30" VH1LB="7.40" VH1RA="7.50" VH1RB="7.20"/>
+	</HeadSet>
+	<InkSet>
+		<Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0.0" Recirculation="0.0" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1"/>
+		<Ink InkType="109G" ColorPlane="1-M" Heat="43.0" Meniscus="10.0" Recirculation="10.0" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1"/>
+		<Ink InkType="113A" ColorPlane="0-C" Heat="43.0" Meniscus="10.0" Recirculation="10.0" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1"/>
+		<Ink InkType="114A" ColorPlane="0-C" Heat="43.0" Meniscus="10.0" Recirculation="10.0" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="False"  PurgeTime="0.1" PurgeCount="1"/>
+		<Ink InkType="509-2.1 100%" ColorPlane="2" Heat="45" Meniscus="10.5" Recirculation="10" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="True" PurgeTime="0.1" PurgeCount="1"/>
+		<Ink InkType="509-2.1 70-30" ColorPlane="3" Heat="45" Meniscus="10.5" Recirculation="10" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" PrePrintPurge="True" PurgeTime="0.1" PurgeCount="1"/>
+	</InkSet>
+	<NozzleCheckSet>
+		<NozzleCheckPrint HeadNumber="1">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH1\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+		<NozzleCheckPrint HeadNumber="2">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH2\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+		<NozzleCheckPrint HeadNumber="3">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH3\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+		<NozzleCheckPrint HeadNumber="4">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH4\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+		<NozzleCheckPrint HeadNumber="5">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH5\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+		<NozzleCheckPrint HeadNumber="6">
+			<AlignPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Head-Align\PH6\PA_TEST_100p_CARD_1000wide_360x360dpi.bmp,1" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</NozzleCheckPrint>
+	</NozzleCheckSet>
+	<WeightCheckSet>
+		<WeightCheckPrint HeadNumber="1">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH1\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+		<WeightCheckPrint HeadNumber="2">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH2\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+		<WeightCheckPrint HeadNumber="3">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH3\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+		<WeightCheckPrint HeadNumber="4">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH4\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+		<WeightCheckPrint HeadNumber="5">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH5\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+		<WeightCheckPrint HeadNumber="6">
+			<StripWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\C30v3.1 RE IP Strip\20231025_DL1_C30v3.1_IP-strip_10x70mm_100gs-for-weights_360DPI_noOPF.bmp" PrintPass="10" EncoderSource="RS422" PrintGoSource="TTL"/>
+			<PrintWeightPrint PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH6\PW.bmp,1" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		</WeightCheckPrint>
+	</WeightCheckSet>
+	<CellPrintSet>
+		<CellPrint RecipeName="c30v3.1 Recipe DOE###" Product="C30v3.1" PrintImageFile="M:\DigiLens-1276\Print_Patterns\Current\C30v3-1_Fat_Fold_DOE###.tiff" PrintMode="360dpi x 360dpi (1dpd) CMYK+Blue+Orange" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint RecipeName="25x29 Token Recipe DOE###" Product="Token" PrintImageFile="M:\DigiLens-1276\Print_Patterns\Current\25x29_Token_DOE###.tiff" PrintMode="360dpi x 360dpi (1dpd) CMYK+Blue+Orange" EncoderSource="RS422" PrintGoSource="TTL"/>
+	</CellPrintSet>
+	<Troubleshooting>
+		<PMBLogging PMBMonitorDuringPrint="False" PMBMonitorDuringIdle="False" LogSwatheInputData="False" LogSwatheOutputData="False" LogPrintheadColourPlanes="False" LogPMBCommunication="False" LogSimulatedOutput="False" LogAllPMBCommunicationData="False" LogPMBSpace="False" ExtendedPMBSpaceLogging="False" LogPMBWriteSpeed="False" LogUsbRetries="False"/>
+		<HIBLogging HIBMonitoringDuringPrint="False" HIBMonitoringLog="False"/>
+	</Troubleshooting>
+</DLP>

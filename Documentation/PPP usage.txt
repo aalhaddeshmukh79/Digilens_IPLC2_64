@@ -1,0 +1,38 @@
+https://github.com/digilens-ar/PPP_app.git
+
+Usage:
+    PPP_app_CLI.py -t <product> -p <printer> -ph <printhead> -m <material> -w <weight> -d <density> -o <overprint> -x <print_wt_multiplier> -n <num_of_drops> -f <gs_source> -l <gs_val_file> -z <zone_compensation> -c <zone_comp_file> -b <bitmap> -r <save_gs_img> -s <dithered_save_path> -g <gs_save_path> -ro <rotation> -dr <driver> -se <server> -db <database> -u <user> -pa <password>
+
+Options:
+    -h --help           Show this help message and exit.
+
+Examples:
+  python PPP_app_CLI.py -t C30L -p DL_1 -ph 1 -m C30L -w 0.0898 -d 1.00 -o 1.15 -x 5 -n 735957 -f DB -l None -z True -c compensation_zone_list2.csv -b WBG_images\DL_1_C30L.bmp -r True -s cwd\Dithered_images -g cwd\Saved_GS_images -ro True -dr "SQL Server" -se tt-local.digilens.com -db ToolTrack -u tooltrack-user -pa DigiLens_rEAd_passwrd
+  
+  
+  
+  
+  
+  Usage:
+
+    PPP_app_CLI.py -t <product> -p <printer> -ph <printhead> -m <material> -w <weight> -d <density> -o <overprint> -x <print_wt_multiplier> -n <num_of_drops> -f <gs_source> -l <gs_val_file> -z <zone_compensation> -c <zone_comp_file> -b <bitmap> -r <save_gs_img> -s <dithered_save_path> -g <gs_save_path> -ro <rotation> -dr <driver> -se <server> -db <database> -u <user> -pa <password>
+
+ 
+
+Options:
+
+    -h --help           Show this help message and exit.
+
+ 
+
+XML Location:
+
+    PPP_app_CLI.py -t <product=RECIPE> -p <printer=CONFIG> -ph <printhead=CONFIG> -m <material=CONFIG> -w <weight=CONFIG> -d <density=CONFIG> -o <overprint=RECIPE> -x <print_wt_multiplier=CONFIG> -n <num_of_drops=CONFIG> -f <gs_source=RECIPE> -l <gs_val_file=RECIPE> -z <zone_compensation=RECIPE> -c <zone_comp_file=RECIPE> -b <bitmap=RECIPE> -r <save_gs_img=RECIPE> -s <dithered_save_path=RECIPE> -g <gs_save_path=RECIPE> -ro <rotation=CONFIG> -dr <driver=CONFIG> -se <server=CONFIG> -db <database=CONFIG> -u <user=CONFIG> -pa <password=CONFIG>
+
+ 
+
+ 
+
+Examples:
+
+  python PPP_app_CLI.py -t C30L -p DL_1 -ph 1 -m C30L -w 0.0898 -d 1.00 -o 1.15 -x 5 -n 735957 -f DB -l None -z True -c compensation_zone_list2.csv -b WBG_images\DL_1_C30L.bmp -r True -s cwd\Dithered_images -g cwd\Saved_GS_images -ro True -dr "SQL Server" -se tt-local.digilens.com -db ToolTrack -u tooltrack-user -pa DigiLens_rEAd_passwrd

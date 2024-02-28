@@ -168,17 +168,17 @@
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ1Mod3_9485_DO</DevName>
-      <IOName>SV2 Servo Enable</IOName>
+      <IOName>Servo ON</IOName>
       <IOPath>cDAQ1Mod3_9485_DO/port0/line6</IOPath>
-      <SchemName>SV2 Servo Enable</SchemName>
+      <SchemName>Servo ON</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ1Mod3_9485_DO</DevName>
-      <IOName>SV2 Servo ON</IOName>
+      <IOName>Clear Stage Alarm</IOName>
       <IOPath>cDAQ1Mod3_9485_DO/port0/line7</IOPath>
-      <SchemName>SV2 Servo ON</SchemName>
+      <SchemName>Clear Stage Alarm</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
@@ -376,49 +376,49 @@
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R1</IOName>
+      <IOName>SW_LED - Ink Valve - R1</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line0</IOPath>
-      <SchemName>LED - Ink Valve Switch - R1</SchemName>
+      <SchemName>SW_LED - Ink Valve - R1</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R2</IOName>
+      <IOName>SW_LED - Ink Valve - R2</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line1</IOPath>
-      <SchemName>LED - Ink Valve Switch - R2</SchemName>
+      <SchemName>SW_LED - Ink Valve - R2</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R3</IOName>
+      <IOName>SW_LED - Ink Valve - R3</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line2</IOPath>
-      <SchemName>LED - Ink Valve Switch - R3</SchemName>
+      <SchemName>SW_LED - Ink Valve - R3</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R4</IOName>
+      <IOName>SW_LED - Ink Valve - R4</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line3</IOPath>
-      <SchemName>LED - Ink Valve Switch - R4</SchemName>
+      <SchemName>SW_LED - Ink Valve - R4</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R5</IOName>
+      <IOName>SW_LED - Ink Valve - R5</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line4</IOPath>
-      <SchemName>LED - Ink Valve Switch - R5</SchemName>
+      <SchemName>SW_LED - Ink Valve - R5</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
       <DevName>cDAQ2Mod6_9485_DO</DevName>
-      <IOName>LED - Ink Valve Switch - R6</IOName>
+      <IOName>SW_LED - Ink Valve - R6</IOName>
       <IOPath>cDAQ2Mod6_9485_DO/port0/line5</IOPath>
-      <SchemName>LED - Ink Valve Switch - R6</SchemName>
+      <SchemName>SW_LED - Ink Valve - R6</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>

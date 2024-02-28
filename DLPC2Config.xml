@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <MasterConfigurationDLPC2>
   <Paths>
-    <DigiBit_WG_Design_Folder>C:\projects\Digilens_IPLC</DigiBit_WG_Design_Folder>
+    <DigiBit_WG_Design_Folder>C:\projects\Digilens-IPLC\Recipe-Config XMLs</DigiBit_WG_Design_Folder>
     <Compensated_GS_Image_Folder>C:\projects\Digilens_IPLC</Compensated_GS_Image_Folder>
     <Nozzle_GS_Files_Head_1>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_1>
     <Nozzle_GS_Files_Head_2>C:\projects\Digilens_IPLC\DLPC2Config.xml</Nozzle_GS_Files_Head_2>
@@ -49,4 +49,64 @@
   <ColorPlanes>3-K</ColorPlanes>
   <ColorPlanes>4-Blue-Spot</ColorPlanes>
   <ColorPlanes>5-Orange-Spot</ColorPlanes>
+    <SpitVoltages_Half>
+    <_1>4</_1>
+    <_2>4</_2>
+    <_3>7</_3>
+    <_4>4</_4>
+    <_5>4</_5>
+    <_6>7</_6>
+  </SpitVoltages_Half>
+  <SpitVoltages_Full>
+    <_1>7</_1>
+    <_2>7</_2>
+    <_3>14</_3>
+    <_4>7</_4>
+    <_5>7</_5>
+    <_6>14</_6>
+  </SpitVoltages_Full>
+  <SystemMode>360dpi x 360dpi (3dpd) 4 Spot Colours</SystemMode>
+    <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>1</Head>
+  </PrimeModeConfig>
+  <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>2</Head>
+  </PrimeModeConfig>
+  <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>3</Head>
+  </PrimeModeConfig>
+  <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>4</Head>
+  </PrimeModeConfig>
+  <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>5</Head>
+  </PrimeModeConfig>
+  <PrimeModeConfig>
+    <Interval_s>1</Interval_s>
+    <PurgeDuration_s>2</PurgeDuration_s>
+    <Repeats>1</Repeats>
+    <PrimingMode>Purge</PrimingMode>
+    <Head>6</Head>
+  </PrimeModeConfig>
+<Running_Average_Duration_s>5</Running_Average_Duration_s>
 </MasterConfigurationDLPC2>

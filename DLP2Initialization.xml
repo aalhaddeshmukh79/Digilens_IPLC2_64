@@ -1,0 +1,28 @@
+<DLP>
+	<PrinterInitialization>
+		<Printer Name="DLP01"/>
+		<VacPumpSet VacPumpEnable="True" VacPumpSpeed="100"/>
+		<HIBEnable HIB1Enable="True" HIB2Enable="True" HIB3Enable="True" HIB4Enable="True" HIB5Enable="False" HIB6Enable="False"/>
+		<PrinterCompensation AppName="PPP_app_CLI.py" PrintWeightMultiplier="5" Rotation="False" Driver="SQL Server" Server="tt-local.digilens.com" Database="ToolTrack" User="tooltrack-user" Password="DigiLens_rEAd_passwrd"/>
+	</PrinterInitialization>
+	<HeadSet>
+		<HeadProperties HeadNumber="1" Material="113A" HeadLocalX="71.40" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.10" VH2R_Hi="14.10" VH1LA_Hi="7.40" VH1LB_Hi="7.40"  VH1RA_Hi="7.50" VH1RB_Hi="7.00" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+		<HeadProperties HeadNumber="2" Material="109G" HeadLocalX="151.25" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.00" VH2R_Hi="14.00" VH1LA_Hi="8.00" VH1LB_Hi="7.50" VH1RA_Hi="7.60" VH1RB_Hi="7.00" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+		<HeadProperties HeadNumber="3" Material="509-2.1 100%" HeadLocalX="231.40" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.20" VH2R_Hi="14.20" VH1LA_Hi="7.10" VH1LB_Hi="8.10" VH1RA_Hi="7.30" VH1RB_Hi="7.70" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+		<HeadProperties HeadNumber="4" Material="509-2.1 70-30" HeadLocalX="311.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.10" VH2R_Hi="14.10" VH1LA_Hi="7.00" VH1LB_Hi="7.00" VH1RA_Hi="8.10" VH1RB_Hi="7.40" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+		<HeadProperties HeadNumber="5" Material="None" HeadLocalX="391.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="13.90" VH2R_Hi="13.90" VH1LA_Hi="7.10" VH1LB_Hi="6.90" VH1RA_Hi="7.50" VH1RB_Hi="7.40" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+		<HeadProperties HeadNumber="6" Material="None" HeadLocalX="471.50" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.50" VH2R_Hi="14.50" VH1LA_Hi="7.30" VH1LB_Hi="7.40" VH1RA_Hi="7.50" VH1RB_Hi="7.20" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00"/>
+	</HeadSet>
+	<InkSet>
+		<Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0.0" Recirculation="0.0" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1" Density="0.00" NumberofDrops="984314" PrintWeight="0.0000"/>
+		<Ink InkType="109G" ColorPlane="1" Heat="43.0" Meniscus="10.0" Recirculation="20.0" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1" Density="1.06" NumberofDrops="984314" PrintWeight="0.0697"/>
+		<Ink InkType="113A" ColorPlane="0" Heat="43.0" Meniscus="10.0" Recirculation="20.0" PrePrintPurge="False" PurgeTime="0.1" PurgeCount="1" Density="1.06" NumberofDrops="984314" PrintWeight="0.0750"/>
+		<Ink InkType="114A" ColorPlane="4" Heat="43.0" Meniscus="10.0" Recirculation="20.0" PrePrintPurge="False"  PurgeTime="0.1" PurgeCount="1" Density="1.06" NumberofDrops="984314" PrintWeight="0.0750"/>
+		<Ink InkType="509-2.1 100%" ColorPlane="2" Heat="45" Meniscus="10.5" Recirculation="20.0" PrePrintPurge="True" PurgeTime="0.1" PurgeCount="1" Density="1.22" NumberofDrops="984314" PrintWeight="0.0950"/>
+		<Ink InkType="509-2.1 70-30" ColorPlane="3" Heat="45" Meniscus="10.5" Recirculation="20.0" PrePrintPurge="True" PurgeTime="0.1" PurgeCount="1" Density="1.30" NumberofDrops="984314" PrintWeight="0.0950"/>
+	</InkSet>
+	<Troubleshooting>
+		<PMBLogging PMBMonitorDuringPrint="False" PMBMonitorDuringIdle="False" LogSwatheInputData="False" LogSwatheOutputData="False" LogPrintheadColourPlanes="False" LogPMBCommunication="False" LogSimulatedOutput="False" LogAllPMBCommunicationData="False" LogPMBSpace="False" ExtendedPMBSpaceLogging="False" LogPMBWriteSpeed="False" LogUsbRetries="False"/>
+		<HIBLogging HIBMonitoringDuringPrint="False" HIBMonitoringLog="False"/>
+	</Troubleshooting>
+</DLP>

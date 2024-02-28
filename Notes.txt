@@ -10,3 +10,70 @@ open a commamd line interface
 use the following command to install bitmiracle
 
 C:\Nuget>nuget install bitmiracle.libtiff.net -version 2.4.649 -o C:\Nuget
+
+
+
+
+1/24/2024: Do not poll status when in print or spit mode. This causes errors in GIS. Build a 
+mechanism to pause polling when in print or spit/prepurge
+
+1/26/2024: Add pre-purge parameters to the config
+
+
+2/7/2024:
+On init set vac to 100 and set everything else to be off.
+Tie back UI control for heat enabled to head/ink line enable control.
+Tie LED controls to ink line enable also
+add "Prime" to the Headpriming list. This is same as spit but only at half.
+change title for counts to "repeats" and add a readback for the current iteration/repeat called as "counts"
+load customer design button -> load print design
+launcher button for recipe xml. better UI for xml
+highlight the button for the selected tab in UI
+
+2/9/2024
+productname = comes from print recipe row /section (recipexml)
+printer name recipexml, printerconfig section
+print head count changes with for loop
+material can come from recipe xml,
+
+feature: tie the recirc pump on controls to the ink flow valve open etc controls
+bug: miniscus pres reg power control did not toggle on automation
+improvement: move the Di state trigger event handler to a different process. Top level blocks during purge preventing DI trigger handling
+
+
+2/26/2024
+Add persistent file for all settings
+Make sure startup uses persistent files
+
+
+Persistent file details:
+
+1. miniscus pres setpoint -4
+1a. miniscus vac pump -3
+2. recirc pump flow setpoint -5
+3. ink channel enable status -1
+4. head temp enable status -2
+5. Tool Idle state
+
+add "Tool Idle State" checkbox
+- when checked, set temps to 25C and enable heat
+
+The ink enable set miniscus pressure to 10 (hardcoded). Should come from persistent file
+
+
+PPP use new xml format
+memory leak (1.3 gb ~10:30 AM -4:00 PM)
+
+labview 64 bit 
+
+
+Send out system mode when a recipe is read-in: command: S,T,M,"systemmode as defined"
+Query system mode S,T,N
+
+BUG: material and colorplane dropdown not setting according to xml init
+
+Tab order:
+
+
+
+On restart, check idle state from persistent file and apply accordingly

@@ -1,0 +1,16 @@
+<DLPRecipe>
+	<CellPrintRecipe Type="Calibration" RecipeName="PH Print Weight" Product="Print Weight" >
+		<CellPrint Head="1" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH1\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint Head="2" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH2\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint Head="3" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH3\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint Head="4" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH4\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint Head="5" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH5\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<CellPrint Head="6" PrintImageFile="C:\Users\labuser\Desktop\Scripts\Patterns\Print Weights\PH6\PW.bmp" PrintPass="5" EncoderSource="RS422" PrintGoSource="TTL"/>
+		<InkCompensationSet>
+			<InkCompensation InkType="109G" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False"/>
+			<InkCompensation InkType="113A" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False"/>
+			<InkCompensation InkType="507-2.1" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False"/>
+			<InkCompensation InkType="507-2.1 70-30" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False"/>
+		</InkCompensationSet>
+	</CellPrintRecipe>
+</DLPRecipe>
