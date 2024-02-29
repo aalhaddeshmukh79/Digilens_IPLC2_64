@@ -77,3 +77,8 @@ Tab order:
 
 
 On restart, check idle state from persistent file and apply accordingly
+
+
+GSValFIle = Moving Avg
+GSSource = Nozzle GS Values
+CompensationZoneList = CompensationZonelist file

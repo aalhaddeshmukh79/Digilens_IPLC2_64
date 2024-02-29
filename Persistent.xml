@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<PersistentData>
+  <ToolIdle>false</ToolIdle>
+  <Meniscus_Vac_Pump_Speed>100</Meniscus_Vac_Pump_Speed>
+  <InkChEnable>
+    <Enable_Ink_Ch-1>false</Enable_Ink_Ch-1>
+    <Enable_Ink_Ch-2>false</Enable_Ink_Ch-2>
+    <Enable_Ink_Ch-3>false</Enable_Ink_Ch-3>
+    <Enable_Ink_Ch-4>false</Enable_Ink_Ch-4>
+    <Enable_Ink_Ch-5>false</Enable_Ink_Ch-5>
+    <Enable_Ink_Ch-6>false</Enable_Ink_Ch-6>
+  </InkChEnable>
+  <HeatEnable>
+    <Heater-1_Off>false</Heater-1_Off>
+    <Heater-2_Off>false</Heater-2_Off>
+    <Heater-3_Off>false</Heater-3_Off>
+    <Heater-4_Off>false</Heater-4_Off>
+    <Heater-5_Off>false</Heater-5_Off>
+    <Heater-6_Off>false</Heater-6_Off>
+  </HeatEnable>
+  <MiniscusPressure>
+    <Meniscus_Pressure_Set_-_R1>8</Meniscus_Pressure_Set_-_R1>
+    <Meniscus_Pressure_Set_-_R2>8</Meniscus_Pressure_Set_-_R2>
+    <Meniscus_Pressure_Set_-_R3>8</Meniscus_Pressure_Set_-_R3>
+    <Meniscus_Pressure_Set_-_R4>10.5</Meniscus_Pressure_Set_-_R4>
+    <Meniscus_Pressure_Set_-_R5>0</Meniscus_Pressure_Set_-_R5>
+    <Meniscus_Pressure_Set_-_R6>0</Meniscus_Pressure_Set_-_R6>
+  </MiniscusPressure>
+  <RecircPumpFlow>
+    <Recirc_Pump_Flow_Set_-_R1>5</Recirc_Pump_Flow_Set_-_R1>
+    <Recirc_Pump_Flow_Set_-_R2>5</Recirc_Pump_Flow_Set_-_R2>
+    <Recirc_Pump_Flow_Set_-_R3>5</Recirc_Pump_Flow_Set_-_R3>
+    <Recirc_Pump_Flow_Set_-_R4>5</Recirc_Pump_Flow_Set_-_R4>
+    <Recirc_Pump_Flow_Set_-_R5>0</Recirc_Pump_Flow_Set_-_R5>
+    <Recirc_Pump_Flow_Set_-_R6>0</Recirc_Pump_Flow_Set_-_R6>
+  </RecircPumpFlow>
+</PersistentData>

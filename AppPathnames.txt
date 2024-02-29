@@ -17,4 +17,5 @@ FilePaths in.DAQ IOConfigFile=C:\projects\Digilens-IPLC\IOConfig[HW].xml
 FilePaths in.SystemSimulation=FALSE
 FilePaths in.DLPUIConfigFile=C:\projects\Digilens-IPLC\DLPC2Config.xml
 FilePaths in.RecipeXMLFile=C:\projects\Digilens-IPLC\DLP2Initialization.xml
+FilePaths in.PersistentXMLFile=C:\projects\Digilens-IPLC\Persistent.xml
 RunTimeSys?=FALSE
