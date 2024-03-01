@@ -170,6 +170,7 @@
 		<Item Name="Persistent_XML_Read.vi" Type="VI" URL="../Common/Persistent_XML_Read.vi"/>
 		<Item Name="Persistent_XML_Write.vi" Type="VI" URL="../Common/Persistent_XML_Write.vi"/>
 		<Item Name="PersistentData--Cluster.ctl" Type="VI" URL="../Common/Controls/PersistentData--Cluster.ctl"/>
+		<Item Name="TD IOCtrlUpdate.ctl" Type="VI" URL="../Classes/DAQ_Common/DataTypes/TD IOCtrlUpdate.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
