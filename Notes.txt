@@ -72,13 +72,15 @@ Query system mode S,T,N
 
 BUG: material and colorplane dropdown not setting according to xml init
 
-Tab order:
+Tab order: -done
 
 
 
-On restart, check idle state from persistent file and apply accordingly
+On restart, check idle state from persistent file and apply accordingly --done
 
 
 GSValFIle = Moving Avg
 GSSource = Nozzle GS Values
 CompensationZoneList = CompensationZonelist file
+
+bug: miniscus pres reg power control did not toggle on automation
