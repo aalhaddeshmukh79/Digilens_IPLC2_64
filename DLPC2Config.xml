@@ -68,42 +68,42 @@
   <SystemMode>360dpi x 360dpi (3dpd) 4 Spot Colours</SystemMode>
     <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>1</Head>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>2</Head>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>3</Head>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>4</Head>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>5</Head>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
-    <PurgeDuration_s>2</PurgeDuration_s>
+    <PurgeDuration_s>0.3</PurgeDuration_s>
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>6</Head>
