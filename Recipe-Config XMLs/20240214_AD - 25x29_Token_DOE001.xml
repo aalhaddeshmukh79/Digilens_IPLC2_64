@@ -2,10 +2,10 @@
 	<CellPrintRecipe Type="PrintDesign" RecipeName="25x29 Token Recipe DOE###" Product="25x29 Token">
 		<CellPrint PrintImageFile="M:\DigiLens-1276\Print_Patterns\Current\25x29_Token_DOE###.tiff" PrintMode="360dpi x 360dpi (1dpd) CMYK+Blue+Orange" EncoderSource="RS422" PrintGoSource="TTL"/>
 		<InkCompensationSet>
-			<InkCompensation InkType="109G" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" GSSource="filename.bmp" GSValFile="filename.xlx" ZoneCompFile="compensation_zone_list2.csv" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
-			<InkCompensation InkType="113A" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" GSSource="filename.bmp" GSValFile="filename.xlx" ZoneCompFile="compensation_zone_list2.csv" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
-			<InkCompensation InkType="507-2.1" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" GSSource="filename.bmp" GSValFile="filename.xlx" ZoneCompFile="compensation_zone_list2.csv" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
-			<InkCompensation InkType="507-2.1 70-30" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" GSSource="filename.bmp" GSValFile="filename.xlx" ZoneCompFile="compensation_zone_list2.csv" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
+			<InkCompensation InkType="109G" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
+			<InkCompensation InkType="113A" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
+			<InkCompensation InkType="507-2.1" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
+			<InkCompensation InkType="507-2.1 70-30" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="True" Overprint="1.1" Bitmap="WBG_images\DLP1_25x29_Token.bmp" SaveGSImg="True" DitheredSavePath="cwd\Dithered_images" GSSavePath="cwd\Saved_GS_images"/>
 		</InkCompensationSet>
 	</CellPrintRecipe>
 </DLPRecipe>
