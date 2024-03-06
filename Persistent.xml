@@ -3,10 +3,10 @@
   <ToolIdle>false</ToolIdle>
   <Meniscus_Vac_Pump_Speed>100</Meniscus_Vac_Pump_Speed>
   <InkChEnable>
-    <Enable_Ink_Ch-1>false</Enable_Ink_Ch-1>
-    <Enable_Ink_Ch-2>false</Enable_Ink_Ch-2>
-    <Enable_Ink_Ch-3>false</Enable_Ink_Ch-3>
-    <Enable_Ink_Ch-4>false</Enable_Ink_Ch-4>
+    <Enable_Ink_Ch-1>true</Enable_Ink_Ch-1>
+    <Enable_Ink_Ch-2>true</Enable_Ink_Ch-2>
+    <Enable_Ink_Ch-3>true</Enable_Ink_Ch-3>
+    <Enable_Ink_Ch-4>true</Enable_Ink_Ch-4>
     <Enable_Ink_Ch-5>false</Enable_Ink_Ch-5>
     <Enable_Ink_Ch-6>false</Enable_Ink_Ch-6>
   </InkChEnable>
