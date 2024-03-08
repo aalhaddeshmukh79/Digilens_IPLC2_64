@@ -11,10 +11,10 @@
     <Enable_Ink_Ch-6>false</Enable_Ink_Ch-6>
   </InkChEnable>
   <HeatEnable>
-    <Heater-1_Off>false</Heater-1_Off>
-    <Heater-2_Off>false</Heater-2_Off>
-    <Heater-3_Off>false</Heater-3_Off>
-    <Heater-4_Off>false</Heater-4_Off>
+    <Heater-1_Off>true</Heater-1_Off>
+    <Heater-2_Off>true</Heater-2_Off>
+    <Heater-3_Off>true</Heater-3_Off>
+    <Heater-4_Off>true</Heater-4_Off>
     <Heater-5_Off>false</Heater-5_Off>
     <Heater-6_Off>false</Heater-6_Off>
   </HeatEnable>
