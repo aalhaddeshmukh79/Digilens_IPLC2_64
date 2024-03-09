@@ -65,7 +65,7 @@
     <_5>7</_5>
     <_6>14</_6>
   </SpitVoltages_Full>
-  <SystemMode>360dpi x 360dpi (3dpd) 4 Spot Colours</SystemMode>
+  <SystemMode>360dpi x 360dpi (1dpd) CMYK</SystemMode>
     <PrimeModeConfig>
     <Interval_s>1</Interval_s>
     <PurgeDuration_s>0.3</PurgeDuration_s>
