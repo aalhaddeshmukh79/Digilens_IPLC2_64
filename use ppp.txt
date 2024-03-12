@@ -1,0 +1,9 @@
+python PPP_app_CLI.py -t C30v3.1 -p DLP02 -ph 2 -m 113A.3 -w 0.075 -d 1.06 -o 1.10 -x 5 -n 984314 -f M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\03_11_2024_10_28_06_DL_2_Head_2_113A_3_Nozzle_GS_values.csv -l M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\DL2 Block Compensation\20240311_DL_2_Head_2_113A_3_5Noz_Mov_Avg.csv -z True -c M:\DigiLens-1276\Production Print Pattern App\App settings\compensation_zone_list2.csv -b M:\DigiLens-1276\Printer Recipe Files\Recipe_Patterns\20240118_DL2_C30L_3_1\20240118_DL2_C30L_3_1_layer1_113A.3.bmp -r True -s M:\DigiLens-1276\Production Print Pattern App\DL2ExportedDitheredImages -g M:\DigiLens-1276\Production Print Pattern App\DL2ExportedGSImages -ro False -dr "SQL Server" -se tt-local.digilens.com -db ToolTrack -u tooltrack-user -pa DigiLens_rEAd_passwrd
+
+python PPP_app_CLI.py -t C30v3.1 -p DLP02 -ph 2 -m 113A.3 -w 0.075 -d 1.06 -o 1.10 -x 5 -n 984314 -f "M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\03_11_2024_10_28_06_DL_2_Head_2_113A_3_Nozzle_GS_values.csv" -l "M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\DL2 Block Compensation\20240311_DL_2_Head_2_113A_3_5Noz_Mov_Avg.csv" -z True -c "M:\DigiLens-1276\Production Print Pattern App\App settings\compensation_zone_list2.csv" -b "M:\DigiLens-1276\Printer Recipe Files\Recipe_Patterns\20240118_DL2_C30L_3_1\20240118_DL2_C30L_3_1_layer1_113A.3.bmp" -r True -s "M:\DigiLens-1276\Production Print Pattern App\DL2ExportedDitheredImages" -g "M:\DigiLens-1276\Production Print Pattern App\DL2ExportedGSImages" -ro False -dr "SQL Server" -se tt-local.digilens.com -db ToolTrack -u tooltrack-equip -pa D!g1Len5_s35E
+
+
+tooltrack_ro
+D!g1Len5_r34D
+
+D!g1Len5_s35E

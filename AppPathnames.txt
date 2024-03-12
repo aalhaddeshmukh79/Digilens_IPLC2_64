@@ -18,4 +18,5 @@ FilePaths in.SystemSimulation=FALSE
 FilePaths in.DLPUIConfigFile=C:\projects\Digilens-IPLC\DLPC2Config.xml
 FilePaths in.PrinterInitXMLFile=C:\projects\Digilens-IPLC\DLP2Initialization.xml
 FilePaths in.PersistentXMLFile=C:\projects\Digilens-IPLC\Persistent.xml
+FilePaths in.Error Log Folder=C:\projects\Digilens-IPLC\Error Log
 RunTimeSys?=FALSE

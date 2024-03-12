@@ -36,12 +36,11 @@
       <ColorPane>5-Orange-Spot</ColorPane>
     </Head_6>
   </ColorPaneMapping>
-  <Materials>none</Materials>
+  <Materials>113A.3</Materials>
   <Materials>109G</Materials>
-  <Materials>311A</Materials>
-  <Materials>FD/OP-3</Materials>
-  <Materials>507 - 100%</Materials>
-  <Materials>507 - 50%</Materials>
+  <Materials>507_2(50_50)</Materials>
+  <Materials>507-2.1</Materials>
+  <Materials>None</Materials>
   <ColorPlanes>none</ColorPlanes>
   <ColorPlanes>0-C</ColorPlanes>
   <ColorPlanes>1-M</ColorPlanes>
