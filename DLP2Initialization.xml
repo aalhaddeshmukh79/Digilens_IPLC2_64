@@ -3,7 +3,7 @@
 		<Printer Name="DLP02"/>
 		<VacPumpSet VacPumpEnable="True" VacPumpSpeed="100"/>
 		<HIBEnable HIB1Enable="True" HIB2Enable="True" HIB3Enable="True" HIB4Enable="True" HIB5Enable="False" HIB6Enable="False"/>
-		<PrinterCompensation AppName="PPP_app_CLI.py" PrintWeightMultiplier="5" Rotation="False" Driver="SQL Server" Server="tt-local.digilens.com" Database="ToolTrack" User="tooltrack_ro" Password="D!g1Len5_r34D"/>
+		<PrinterCompensation AppName="PPP_app_CLI.py" PrintWeightMultiplier="5" Rotation="False" Driver="SQL Server" Server="tt-local.digilens.com" Database="ToolTrack" User="tooltrack-equip" Password="D!g1Len5_s35E"/>
 	</PrinterInitialization>
 	<HeadSet>
 		<HeadProperties HeadNumber="1" Material="109G" HeadLocalX="71.40" HeadLocalY="0.00" HeadRotationAngle="0.00" VH2L_Hi="14.10" VH2R_Hi="14.10" VH1LA_Hi="7.40" VH1LB_Hi="7.40"  VH1RA_Hi="7.50" VH1RB_Hi="7.00" VH2L_Lo="7.00" VH2R_Lo="7.00" VH1LA_Lo="4.00" VH1LB_Lo="4.00"  VH1RA_Lo="4.00" VH1RB_Lo="4.00" GSSource="M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\03_11_2024_10_27_32_DL_2_Head_1_109G_Nozzle_GS_values.csv" GSValFile="M:\DigiLens-1276\Print Analyzer App\Analyzed data\GS values\DL2 Block Compensation\20240311_DL_2_Head_1_109G_5Noz_Mov_Avg.csv" ZoneCompFile="M:\DigiLens-1276\Production Print Pattern App\App settings\compensation_zone_list2.csv"/>

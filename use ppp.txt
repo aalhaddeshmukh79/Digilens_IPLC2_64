@@ -6,6 +6,7 @@ python PPP_app_CLI.py -t C30v3.1 -p DLP02 -ph 2 -m 113A.3 -w 0.075 -d 1.06 -o 1.
 tooltrack_ro
 D!g1Len5_r34D
 
+tooltrack_equip
 D!g1Len5_s35E
 
 
