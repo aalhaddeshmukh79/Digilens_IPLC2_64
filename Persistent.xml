@@ -11,7 +11,7 @@
     <Enable_Ink_Ch-6>false</Enable_Ink_Ch-6>
   </InkChEnable>
   <HeatEnable>
-    <Heater-1_Off>true</Heater-1_Off>
+    <Heater-1_Off>false</Heater-1_Off>
     <Heater-2_Off>true</Heater-2_Off>
     <Heater-3_Off>true</Heater-3_Off>
     <Heater-4_Off>true</Heater-4_Off>
@@ -19,10 +19,10 @@
     <Heater-6_Off>false</Heater-6_Off>
   </HeatEnable>
   <MiniscusPressure>
-    <Meniscus_Pressure_Set_-_R1>10</Meniscus_Pressure_Set_-_R1>
-    <Meniscus_Pressure_Set_-_R2>10</Meniscus_Pressure_Set_-_R2>
-    <Meniscus_Pressure_Set_-_R3>11</Meniscus_Pressure_Set_-_R3>
-    <Meniscus_Pressure_Set_-_R4>13</Meniscus_Pressure_Set_-_R4>
+    <Meniscus_Pressure_Set_-_R1>8</Meniscus_Pressure_Set_-_R1>
+    <Meniscus_Pressure_Set_-_R2>8.5</Meniscus_Pressure_Set_-_R2>
+    <Meniscus_Pressure_Set_-_R3>9.5</Meniscus_Pressure_Set_-_R3>
+    <Meniscus_Pressure_Set_-_R4>9.5</Meniscus_Pressure_Set_-_R4>
     <Meniscus_Pressure_Set_-_R5>0</Meniscus_Pressure_Set_-_R5>
     <Meniscus_Pressure_Set_-_R6>0</Meniscus_Pressure_Set_-_R6>
   </MiniscusPressure>
