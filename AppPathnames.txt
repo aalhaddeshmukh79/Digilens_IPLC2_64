@@ -19,4 +19,5 @@ FilePaths in.DLPUIConfigFile=C:\projects\Digilens-IPLC\DLPC2Config.xml
 FilePaths in.PrinterInitXMLFile=C:\projects\Digilens-IPLC\DLP2Initialization.xml
 FilePaths in.PersistentXMLFile=C:\projects\Digilens-IPLC\Persistent.xml
 FilePaths in.Error Log Folder=C:\projects\Digilens-IPLC\Error Log
+FilePaths in.RecipeXMLFolder=C:\projects\Digilens-IPLC\Recipe-Config XMLs
 RunTimeSys?=FALSE
