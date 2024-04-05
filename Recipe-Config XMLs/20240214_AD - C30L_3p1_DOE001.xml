@@ -1,6 +1,6 @@
 <DLPRecipe>
 	<CellPrintRecipe Type="PrintDesign" RecipeName="c30v3_1 Recipe DOE001" Product="C30v3_1" >
-		<CellPrint PrintImageFile="M:\DigiLens-1276\Printer Recipe Files\Recipe_Patterns\20240118_DL2_C30L_3_1.tif" PrintPass="1" PrintMode="360dpi x 360dpi (1dpd) CMYK" EncoderSource="RS422" PrintGoSource="TTL" DitheredSavePath="M:\DigiLens-1276\Production Print Pattern App\DL2ExportedDitheredImages" GSSavePath="M:\DigiLens-1276\Production Print Pattern App\DL2ExportedGSImages"/>
+		<CellPrint PrintImageFile="M:\DigiLens-1276\Printer Recipe Files\Recipe_Patterns\240118_DL2_C30L_3_1_DOE001.tif" PrintPass="1" PrintMode="360dpi x 360dpi (1dpd) CMYK" EncoderSource="RS422" PrintGoSource="TTL" DitheredSavePath="M:\DigiLens-1276\Production Print Pattern App\DL2ExportedDitheredImages" GSSavePath="M:\DigiLens-1276\Production Print Pattern App\DL2ExportedGSImages"/>
 		<InkCompensationSet>
 			<InkCompensation InkType="113A_3" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False" Overprint="1.1" Bitmap="M:\DigiLens-1276\Production Print Pattern App\WBG images\DLP2_C30L.bmp" SaveGSImg="True"/>
 			<InkCompensation InkType="109G" Waveform="1dpd 146m/min (34.5kHz) 1bpp 1GL_1" ZoneCompensation="False" Overprint="1.1" Bitmap="M:\DigiLens-1276\Production Print Pattern App\WBG images\DLP2_C30L.bmp" SaveGSImg="True"/>
