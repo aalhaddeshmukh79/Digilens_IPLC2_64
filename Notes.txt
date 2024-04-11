@@ -84,3 +84,15 @@ GSSource = Nozzle GS Values
 CompensationZoneList = CompensationZonelist file
 
 bug: miniscus pres reg power control did not toggle on automation
+
+
+
+4/10/2024:
+
+1. INput DI does not show the main head indicator/control changes
+2. Add login levels
+3. Add error logging
+4. Add Status
+5. Add init status messgaes on UI
+6. Change UI based on slides
+7. Add coounter to headprint
