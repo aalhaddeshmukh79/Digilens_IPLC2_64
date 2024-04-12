@@ -501,6 +501,12 @@
     <AO_IONames>Meniscus Pressure Set - R5</AO_IONames>
     <AO_IONames>Meniscus Pressure Set - R6</AO_IONames>
 	<AO_IONames>Meniscus Vac Pump Speed</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R1</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R2</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R3</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R4</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R5</AO_IONames>
+	<AO_IONames>Recirc Pump Flow Set - R6</AO_IONames>
     <AO_NChan_SingleTask>false</AO_NChan_SingleTask>
   </DAQ_Settings>
 </Digilens_IPLC_Config>

@@ -758,5 +758,107 @@
       </Conversion>
       <DAQmx_Task/>
     </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R1</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao0</IOPath>
+      <SchemName>Recirc Pump Flow Set - R1</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R2</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao1</IOPath>
+      <SchemName>Recirc Pump Flow Set - R2</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R3</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao2</IOPath>
+      <SchemName>Recirc Pump Flow Set - R3</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R4</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao3</IOPath>
+      <SchemName>Recirc Pump Flow Set - R4</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R5</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao4</IOPath>
+      <SchemName>Recirc Pump Flow Set - R5</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
+    <AO_Channels>
+      <DevName>cDAQ2Mod2_9264_AO</DevName>
+      <IOName>Recirc Pump Flow Set - R6</IOName>
+      <IOPath>cDAQ2Mod2_9264_AO/ao5</IOPath>
+      <SchemName>Recirc Pump Flow Set - R6</SchemName>
+      <Vmin>0</Vmin>
+      <Vmax>5</Vmax>
+      <Conversion>
+        <MaxSignal>5</MaxSignal>
+        <MinSignal>0</MinSignal>
+        <MaxEngUnit>100</MaxEngUnit>
+        <MinEngUnit>0</MinEngUnit>
+        <ScaleOffset>0</ScaleOffset>
+        <negate>false</negate>
+      </Conversion>
+      <DAQmx_Task/>
+    </AO_Channels>
   </AO_Config>
 </IO_Nodes>

@@ -113,6 +113,9 @@
 			<Item Name="DLP_MaterialToHeadMapping--Cluster.ctl" Type="VI" URL="../Common/Controls/DLP_MaterialToHeadMapping--Cluster.ctl"/>
 			<Item Name="PersistentData--Cluster.ctl" Type="VI" URL="../Common/Controls/PersistentData--Cluster.ctl"/>
 			<Item Name="TD IOCtrlUpdate.ctl" Type="VI" URL="../Classes/DAQ_Common/DataTypes/TD IOCtrlUpdate.ctl"/>
+			<Item Name="Error Data Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Error Data Cluster.ctl"/>
+			<Item Name="UserLevel--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel--Enum.ctl"/>
+			<Item Name="LoginEventData--CLuster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/LoginEventData--CLuster.ctl"/>
 		</Item>
 		<Item Name="XML" Type="Folder">
 			<Item Name="GISStatus_XML_Read.vi" Type="VI" URL="../Common/GISStatus_XML_Read.vi"/>
@@ -131,7 +134,6 @@
 			<Item Name="To Be Sorted" Type="Folder">
 				<Item Name="WriteConfig.vi" Type="VI" URL="../Classes/WriteConfig.vi"/>
 				<Item Name="SetJogSpeed.vi" Type="VI" URL="../Classes/Motor Controller/Methods/SetJogSpeed.vi"/>
-				<Item Name="tiff meta data test.vi" Type="VI" URL="../../../Users/Aalhad/Desktop/Files/tiff meta data test.vi"/>
 				<Item Name="Read Tiff File (Bitmiracle libtiff.net).vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net).vi"/>
 				<Item Name="WriteDLP2Config.vi" Type="VI" URL="../Common/Support/WriteDLP2Config.vi"/>
 				<Item Name="PurgeMode--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PurgeMode--Enum.ctl"/>
@@ -150,19 +152,24 @@
 				<Item Name="GIS_PollTimers--cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS_PollTimers--cluster.ctl"/>
 				<Item Name="GIS Status--Cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS Status--Cluster.ctl"/>
 				<Item Name="HeadHeaterTemperatureSet--Cluster.ctl" Type="VI" URL="../Common/Controls/HeadHeaterTemperatureSet--Cluster.ctl"/>
+				<Item Name="ParseDithereImageName.vi" Type="VI" URL="../Classes/TopLevel/ParseDithereImageName.vi"/>
+				<Item Name="Create 1bit bmp image.vi" Type="VI" URL="../Classes/TopLevel/Methods/Create 1bit bmp image.vi"/>
+				<Item Name="UI extra controls.vi" Type="VI" URL="../Common/UI extra controls.vi"/>
 			</Item>
-			<Item Name="SQL Execute.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Execute.vi"/>
+			<Item Name="SQL" Type="Folder">
+				<Item Name="SQL Execute.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Execute.vi"/>
+				<Item Name="BuildUpdateQuery.vi" Type="VI" URL="../Classes/Database/Util/BuildUpdateQuery.vi"/>
+				<Item Name="SQL Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Open.vi"/>
+				<Item Name="ADODBCommand Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Destroy.vi"/>
+				<Item Name="SQL Close.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Close.vi"/>
+			</Item>
 			<Item Name="Create Write DLPConfig2.vi" Type="VI" URL="../Common/Utilities/Util/Create Write DLPConfig2.vi"/>
 			<Item Name="CreateImages.vi" Type="VI" URL="../Common/Support/CreateImages.vi"/>
 			<Item Name="GetHeadFromPurgeSwitchName.vi" Type="VI" URL="../Classes/TopLevel/Methods/GetHeadFromPurgeSwitchName.vi"/>
-			<Item Name="ADODBCommand Destroy.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBCommand Destroy.vi"/>
 			<Item Name="Read Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Read Startup INI.vi"/>
 			<Item Name="Write Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Write Startup INI.vi"/>
-			<Item Name="BuildUpdateQuery.vi" Type="VI" URL="../Classes/Database/Util/BuildUpdateQuery.vi"/>
 			<Item Name="TestSortedRecipeFOlderData.vi" Type="VI" URL="../Common/Support/TestSortedRecipeFOlderData.vi"/>
 			<Item Name="GetHeadEnumValue.vi" Type="VI" URL="../Classes/TopLevel/GetHeadEnumValue.vi"/>
-			<Item Name="SQL Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Open.vi"/>
-			<Item Name="SQL Close.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/SQL Close.vi"/>
 		</Item>
 		<Item Name="GIS Printer.lvclass" Type="LVClass" URL="../Classes/GIS Printer/GIS Printer.lvclass"/>
 		<Item Name="Motor Controller.lvclass" Type="LVClass" URL="../Classes/Motor Controller/Motor Controller.lvclass"/>
@@ -174,12 +181,6 @@
 		<Item Name="DataQueues.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Support/DataQueues/DataQueues.lvclass"/>
 		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
-		<Item Name="Error Data Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Error Data Cluster.ctl"/>
-		<Item Name="ParseDithereImageName.vi" Type="VI" URL="../Classes/TopLevel/ParseDithereImageName.vi"/>
-		<Item Name="Create 1bit bmp image.vi" Type="VI" URL="../Classes/TopLevel/Methods/Create 1bit bmp image.vi"/>
-		<Item Name="UI extra controls.vi" Type="VI" URL="../Common/UI extra controls.vi"/>
-		<Item Name="UserLevel--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel--Enum.ctl"/>
-		<Item Name="LoginEventData--CLuster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/LoginEventData--CLuster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1027,6 +1028,10 @@
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
@@ -1093,9 +1098,6 @@
 			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 			<Item Name="Get Python Path.vi" Type="VI" URL="../Common/Utilities/Get Python Path.vi"/>
 			<Item Name="GetDPIValuesFromMode.vi" Type="VI" URL="../Classes/Utilities/GetDPIValuesFromMode.vi"/>
-			<Item Name="PresentationCore" Type="VI" URL="PresentationCore">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="UserLevel_withoutNone--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel_withoutNone--Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

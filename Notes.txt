@@ -90,9 +90,13 @@ bug: miniscus pres reg power control did not toggle on automation
 4/10/2024:
 
 1. INput DI does not show the main head indicator/control changes
-2. Add login levels
+2. Add login levels (Done)
 3. Add error logging
 4. Add Status
 5. Add init status messgaes on UI
 6. Change UI based on slides
 7. Add coounter to headprint
+8. If Ao does not exist do no throw error (handle this situation)
+9. remove recirc pump flow set from persistent file and cluster
+10. repeat counter for calibrations
+11. UI changes based on logins
