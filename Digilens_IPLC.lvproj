@@ -177,6 +177,7 @@
 		<Item Name="Error Data Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Error Data Cluster.ctl"/>
 		<Item Name="ParseDithereImageName.vi" Type="VI" URL="../Classes/TopLevel/ParseDithereImageName.vi"/>
 		<Item Name="Create 1bit bmp image.vi" Type="VI" URL="../Classes/TopLevel/Methods/Create 1bit bmp image.vi"/>
+		<Item Name="UI extra controls.vi" Type="VI" URL="../Common/UI extra controls.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1024,10 +1025,6 @@
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
@@ -1094,6 +1091,9 @@
 			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 			<Item Name="Get Python Path.vi" Type="VI" URL="../Common/Utilities/Get Python Path.vi"/>
 			<Item Name="GetDPIValuesFromMode.vi" Type="VI" URL="../Classes/Utilities/GetDPIValuesFromMode.vi"/>
+			<Item Name="PresentationCore" Type="VI" URL="PresentationCore">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
