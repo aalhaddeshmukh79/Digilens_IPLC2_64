@@ -178,6 +178,8 @@
 		<Item Name="ParseDithereImageName.vi" Type="VI" URL="../Classes/TopLevel/ParseDithereImageName.vi"/>
 		<Item Name="Create 1bit bmp image.vi" Type="VI" URL="../Classes/TopLevel/Methods/Create 1bit bmp image.vi"/>
 		<Item Name="UI extra controls.vi" Type="VI" URL="../Common/UI extra controls.vi"/>
+		<Item Name="UserLevel--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel--Enum.ctl"/>
+		<Item Name="LoginEventData--CLuster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/LoginEventData--CLuster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1094,6 +1096,7 @@
 			<Item Name="PresentationCore" Type="VI" URL="PresentationCore">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="UserLevel_withoutNone--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel_withoutNone--Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
