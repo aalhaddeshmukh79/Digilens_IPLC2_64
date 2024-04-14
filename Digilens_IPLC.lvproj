@@ -181,6 +181,7 @@
 		<Item Name="DataQueues.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Support/DataQueues/DataQueues.lvclass"/>
 		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
+		<Item Name="DLPConfigInitialization_XML_Write.vi" Type="VI" URL="../Common/DLPConfigInitialization_XML_Write.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
