@@ -182,6 +182,9 @@
 		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
 		<Item Name="DLPConfigInitialization_XML_Write.vi" Type="VI" URL="../Common/DLPConfigInitialization_XML_Write.vi"/>
+		<Item Name="Test Materials Read and Saving XML.vi" Type="VI" URL="../Common/Test Materials Read and Saving XML.vi"/>
+		<Item Name="TestTabDisabled.vi" Type="VI" URL="../Common/TestTabDisabled.vi"/>
+		<Item Name="Dummy--Tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Dummy--Tabs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
