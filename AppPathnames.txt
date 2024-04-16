@@ -20,4 +20,5 @@ FilePaths in.PrinterInitXMLFile=M:\DigiLens-1276\Printer Recipe Files\Printer_Co
 FilePaths in.PersistentXMLFile=C:\projects\Digilens-IPLC\Persistent.xml
 FilePaths in.Error Log Folder=C:\projects\Digilens-IPLC\Error Log
 FilePaths in.RecipeXMLFolder=M:\DigiLens-1276\Printer Recipe Files\Recipe_XMLs
+FilePaths in.CalibrationRecipeXMLFolder=M:\DigiLens-1276\Printer Recipe Files\Recipe_XMLs
 RunTimeSys?=FALSE
