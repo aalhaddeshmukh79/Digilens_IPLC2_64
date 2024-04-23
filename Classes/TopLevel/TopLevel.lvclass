@@ -647,6 +647,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
+		<Item Name="PurgeRequestWindow--Process.vi" Type="VI" URL="../PurgeRequestWindow--Process.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#)!!!!!Q!%!!!!+%"Q!"Y!!")16'^Q4'6W:7QO&lt;(:D&lt;'&amp;T=Q!!#V2P=%RF&gt;G6M)%FO!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!Q!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Recipe XML Editor.vi" Type="VI" URL="../Recipe XML Editor.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#`!!!!"!!%!!!!+E"Q!"Y!!")16'^Q4'6W:7QO&lt;(:D&lt;'&amp;T=Q!!$&amp;2P=%RF&gt;G6M)'^V&gt;!!!+%"Q!"Y!!")16'^Q4'6W:7QO&lt;(:D&lt;'&amp;T=Q!!#V2P=%RF&gt;G6M)%FO!'%!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!#!Q!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!-!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -928,14 +937,5 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
-	</Item>
-	<Item Name="PurgeRequestWindow--Process.vi" Type="VI" URL="../PurgeRequestWindow--Process.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#)!!!!!Q!%!!!!+%"Q!"Y!!")16'^Q4'6W:7QO&lt;(:D&lt;'&amp;T=Q!!#V2P=%RF&gt;G6M)%FO!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!Q!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!%!!A!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">256</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>

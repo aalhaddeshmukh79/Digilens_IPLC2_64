@@ -71,6 +71,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>1</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
@@ -78,6 +79,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>2</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
@@ -85,6 +87,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>3</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
@@ -92,6 +95,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>4</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
@@ -99,6 +103,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>5</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
   <PrimeModeConfig>
     <Interval_s>1</Interval_s>
@@ -106,6 +111,7 @@
     <Repeats>1</Repeats>
     <PrimingMode>Purge</PrimingMode>
     <Head>6</Head>
+	<Frequency_Hz>12000</Frequency_Hz>
   </PrimeModeConfig>
 <Running_Average_Duration_s>5</Running_Average_Duration_s>
 </MasterConfigurationDLPC2>
