@@ -1,0 +1,36 @@
+1. product name: material 1_5
+
+
+
+
+ui comes up: timer is enabled...
+
+a) should start as expired
+b) primeheads should be enabled
+c) print should be disabled
+
+
+click prime heads
+
+a) pop up purge request window
+b) after done...
+	0. send done
+	1. reset timer
+	2. enable print
+	3. disable primeheads
+	
+If printed before timer expires
+
+a)reset timer
+
+if timer expires
+
+a) enable primeheads
+b) disable print
+
+
+
+if diabled timer
+
+a) disable primerheads
+b) enable print
