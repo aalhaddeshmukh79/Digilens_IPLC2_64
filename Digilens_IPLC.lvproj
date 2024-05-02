@@ -116,6 +116,9 @@
 			<Item Name="Error Data Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Error Data Cluster.ctl"/>
 			<Item Name="UserLevel--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel--Enum.ctl"/>
 			<Item Name="LoginEventData--CLuster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/LoginEventData--CLuster.ctl"/>
+			<Item Name="Dummy--Tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Dummy--Tabs.ctl"/>
+			<Item Name="printWeights--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/printWeights--cluster.ctl"/>
+			<Item Name="Timer_Data--Cluster.ctl" Type="VI" URL="../Classes/DAQ_Common/DataTypes/Timer_Data--Cluster.ctl"/>
 		</Item>
 		<Item Name="XML" Type="Folder">
 			<Item Name="GISStatus_XML_Read.vi" Type="VI" URL="../Common/GISStatus_XML_Read.vi"/>
@@ -129,6 +132,8 @@
 			<Item Name="XML Build Entity__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/XML Build Entity__JKI EasyXML.vi"/>
 			<Item Name="Persistent_XML_Read.vi" Type="VI" URL="../Common/Persistent_XML_Read.vi"/>
 			<Item Name="Persistent_XML_Write.vi" Type="VI" URL="../Common/Persistent_XML_Write.vi"/>
+			<Item Name="DLPConfigInitialization_XML_Write.vi" Type="VI" URL="../Common/DLPConfigInitialization_XML_Write.vi"/>
+			<Item Name="Test Materials Read and Saving XML.vi" Type="VI" URL="../Common/Test Materials Read and Saving XML.vi"/>
 		</Item>
 		<Item Name="Methods" Type="Folder">
 			<Item Name="To Be Sorted" Type="Folder">
@@ -170,6 +175,7 @@
 			<Item Name="Write Startup INI.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Write Startup INI.vi"/>
 			<Item Name="TestSortedRecipeFOlderData.vi" Type="VI" URL="../Common/Support/TestSortedRecipeFOlderData.vi"/>
 			<Item Name="GetHeadEnumValue.vi" Type="VI" URL="../Classes/TopLevel/GetHeadEnumValue.vi"/>
+			<Item Name="TestTabDisabled.vi" Type="VI" URL="../Common/TestTabDisabled.vi"/>
 		</Item>
 		<Item Name="GIS Printer.lvclass" Type="LVClass" URL="../Classes/GIS Printer/GIS Printer.lvclass"/>
 		<Item Name="Motor Controller.lvclass" Type="LVClass" URL="../Classes/Motor Controller/Motor Controller.lvclass"/>
@@ -181,12 +187,6 @@
 		<Item Name="DataQueues.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Support/DataQueues/DataQueues.lvclass"/>
 		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
-		<Item Name="DLPConfigInitialization_XML_Write.vi" Type="VI" URL="../Common/DLPConfigInitialization_XML_Write.vi"/>
-		<Item Name="Test Materials Read and Saving XML.vi" Type="VI" URL="../Common/Test Materials Read and Saving XML.vi"/>
-		<Item Name="TestTabDisabled.vi" Type="VI" URL="../Common/TestTabDisabled.vi"/>
-		<Item Name="Dummy--Tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/Dummy--Tabs.ctl"/>
-		<Item Name="printWeights--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/printWeights--cluster.ctl"/>
-		<Item Name="Timer_Data--Cluster.ctl" Type="VI" URL="../Classes/DAQ_Common/DataTypes/Timer_Data--Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1034,6 +1034,10 @@
 				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
