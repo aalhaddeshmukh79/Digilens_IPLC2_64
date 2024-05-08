@@ -100,3 +100,26 @@ bug: miniscus pres reg power control did not toggle on automation
 9. remove recirc pump flow set from persistent file and cluster
 10. repeat counter for calibrations
 11. UI changes based on logins
+
+
+
+5/1/2024
+
+timer flashes bigger number after priming
+
+recipetype refresh recipe - notice it doesnt refresh when choosing 
+recipetype
+
+grey out print after switching product/recipe
+
+pressing tab on printhead service page
+
+Should only require login for engineer? operator should be default 
+possibility 
+
+addition of primehead timer reset (can click primeheads again to 
+start process right away
+IPLC Process-Calibration-Printhead Alignment => PH selection still life? 
+
+Appled_0,_1_2_3_4_5 for all images for each head that are available. display images only for the head chosen
+blank for others
