@@ -123,3 +123,19 @@ IPLC Process-Calibration-Printhead Alignment => PH selection still life?
 
 Appled_0,_1_2_3_4_5 for all images for each head that are available. display images only for the head chosen
 blank for others
+
+
+5/15/2024
+1. Get head status at startup so user does not have to toggle head
+2. Add status for Abort and Printing
+3. Add Dithered images load
+4. Add Title Bar/Icon and User Manu
+5. Tab order
+6. Idle: Dropdown short idle, long idle and process
+	disable printing button when idle is enabled
+	changing printhead service settings is ok
+	Always idle mode at restart
+	populate head setpoint controls with actual setpoints for modes (Short Idle, process ...)
+
+Add error class functionality to all classes (Long term)
+
