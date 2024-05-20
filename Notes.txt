@@ -126,16 +126,16 @@ blank for others
 
 
 5/15/2024
-1. Get head status at startup so user does not have to toggle head
-2. Add status for Abort and Printing
+1. Get head status at startup so user does not have to toggle head  (Done)
+2. Add status for Abort and Printing (Done)
 3. Add Dithered images load
-4. Add Title Bar/Icon and User Manu
+4. Add Title Bar/Icon and User Manu (Done)
 5. Tab order
-6. Idle: Dropdown short idle, long idle and process
+6. Idle: Dropdown short idle, long idle and process (Done)
 	disable printing button when idle is enabled
-	changing printhead service settings is ok
-	Always idle mode at restart
-	populate head setpoint controls with actual setpoints for modes (Short Idle, process ...)
+	changing printhead service settings is ok (Done)
+	Always idle mode at restart (Done)
+	populate head setpoint controls with actual setpoints for modes (Short Idle, process ...) (Done)
 
 Add error class functionality to all classes (Long term)
 

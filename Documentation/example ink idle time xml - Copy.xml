@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<DLP>
+  <PrinterInitialization>
+    <Printer Name="AA"/>
+    <VacPumpSet VacPumpEnable="false" VacPumpSpeed="0"/>
+    <HIBEnable HIB1Enable="false" HIB2Enable="false" HIB3Enable="false" HIB4Enable="false" HIB5Enable="false" HIB6Enable="false"/>
+    <PrinterCompensation AppName="" PrintWeightMultiplier="0" Rotation="false" Driver="" Server="" Database="" User="" Password=""/>
+  </PrinterInitialization>
+  <HeadSet/>
+  <InkSet>
+    <Ink InkType="" ColorPlane="" Heat="0" Meniscus="0" Recirculation="0" PrePrintPurge="false" PurgeTime="0" PurgeCount="0" Density="0" NumberofDrops="0" PrintWeight="0" PrintheadPrime="false">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
+  </InkSet>
+  <Troubleshooting>
+    <PMBLogging PMBMonitorDuringPrint="false" PMBMonitorDuringIdle="false" LogSwatheInputData="false" LogSwatheOutputData="false" LogPrintheadColourPlanes="false" LogPMBCommunication="false" LogSimulatedOutput="false" LogAllPMBCommunicationData="false" LogPMBSpace="false" ExtendedPMBSpaceLogging="false" LogPMBWriteSpeed="false" LogUsbRetries="false"/>
+    <HIBLogging HIBMonitoringDuringPrint="false" HIBMonitoringLog="false"/>
+  </Troubleshooting>
+</DLP>

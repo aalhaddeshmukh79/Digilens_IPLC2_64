@@ -15,17 +15,42 @@
     <HeadProperties HeadNumber="6" Material="None" HeadLocalX="471.5" HeadLocalY="0" HeadRotationAngle="0" VH2L_Hi="14.5" VH2R_Hi="14.5" VH1LA_Hi="7.3" VH1LB_Hi="7.4" VH1RA_Hi="7.5" VH1RB_Hi="7.2" VH2L_Lo="7" VH2R_Lo="7" VH1LA_Lo="4" VH1LB_Lo="4" VH1RA_Lo="4" VH1RB_Lo="4"/>
   </HeadSet>
   <InkSet>
-    <Ink InkType="109G" ColorPlane="1" Heat="43" Meniscus="10" Recirculation="20" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="1.06" NumberofDrops="984314" PrintWeight="0.0794" PrintheadPrime="false">
+    <Ink InkType="109G" ColorPlane="1" Heat="43" Meniscus="10" Recirculation="20" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="1.06" NumberofDrops="984314" PrintWeight="0.0794" PrintheadPrime="True">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
+    <Ink InkType="113A_3" ColorPlane="0" Heat="43" Meniscus="10" Recirculation="20" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="1.06" NumberofDrops="280026" PrintWeight="0.0213" PrintheadPrime="false">
 		<Idle>
-			<ShortIdle Heat = "25.0"/>
-			<LongIdle Heat = "25.0"/>
+			<ShortIdle Heat = "25"/>
+			<LongIdle Heat = "25"/>
 		</Idle>
 	</Ink>
-    <Ink InkType="113A_3" ColorPlane="0" Heat="43" Meniscus="10" Recirculation="20" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="1.06" NumberofDrops="280026" PrintWeight="0.0213" PrintheadPrime="false"/>
-    <Ink InkType="507_2(50)" ColorPlane="3" Heat="45" Meniscus="10.5" Recirculation="20" PrePrintPurge="true" PurgeTime="0.3" PurgeCount="1" Density="1.3" NumberofDrops="984314" PrintWeight="0.093" PrintheadPrime="false"/>
-    <Ink InkType="507_2" ColorPlane="2" Heat="45" Meniscus="10.5" Recirculation="20" PrePrintPurge="true" PurgeTime="0.3" PurgeCount="1" Density="1.22" NumberofDrops="984314" PrintWeight="0.1041" PrintheadPrime="true"/>
-    <Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0" Recirculation="0" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="0" NumberofDrops="984314" PrintWeight="0" PrintheadPrime="false"/>
-    <Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0" Recirculation="0" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="0" NumberofDrops="984314" PrintWeight="0" PrintheadPrime="false"/>
+    <Ink InkType="507_2(50)" ColorPlane="3" Heat="45" Meniscus="10.5" Recirculation="20" PrePrintPurge="true" PurgeTime="0.3" PurgeCount="1" Density="1.3" NumberofDrops="984314" PrintWeight="0.093" PrintheadPrime="false">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
+    <Ink InkType="507_2" ColorPlane="2" Heat="45" Meniscus="10.5" Recirculation="20" PrePrintPurge="true" PurgeTime="0.3" PurgeCount="1" Density="1.22" NumberofDrops="984314" PrintWeight="0.1041" PrintheadPrime="true">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
+    <Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0" Recirculation="0" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="0" NumberofDrops="984314" PrintWeight="0" PrintheadPrime="false">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
+    <Ink InkType="None" ColorPlane="None" Heat="0" Meniscus="0" Recirculation="0" PrePrintPurge="false" PurgeTime="0.3" PurgeCount="1" Density="0" NumberofDrops="984314" PrintWeight="0" PrintheadPrime="false">
+      <Idle>
+        <ShortIdle Heat="25"/>
+        <LongIdle Heat="12"/>
+      </Idle>
+    </Ink>
   </InkSet>
   <Troubleshooting>
     <PMBLogging PMBMonitorDuringPrint="false" PMBMonitorDuringIdle="false" LogSwatheInputData="false" LogSwatheOutputData="false" LogPrintheadColourPlanes="false" LogPMBCommunication="false" LogSimulatedOutput="false" LogAllPMBCommunicationData="false" LogPMBSpace="false" ExtendedPMBSpaceLogging="false" LogPMBWriteSpeed="false" LogUsbRetries="false"/>
