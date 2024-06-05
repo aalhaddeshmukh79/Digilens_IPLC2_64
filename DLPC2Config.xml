@@ -20,7 +20,7 @@
       <ColorPane>1-M</ColorPane>
     </Head_2>
     <Head_3>
-      <Material>507_2(50_50)</Material>
+      <Material>507_2(50)</Material>
       <ColorPane>2-Y</ColorPane>
     </Head_3>
     <Head_4>
@@ -38,7 +38,7 @@
   </ColorPaneMapping>
   <Materials>113A_3</Materials>
   <Materials>109G</Materials>
-  <Materials>507_2(50_50)</Materials>
+  <Materials>507_2(50)</Materials>
   <Materials>507_2</Materials>
   <Materials>None</Materials>
   <ColorPlanes>none</ColorPlanes>

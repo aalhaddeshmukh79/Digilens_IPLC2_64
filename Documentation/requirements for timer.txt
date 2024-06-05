@@ -5,7 +5,7 @@
 
 ui comes up: timer is enabled...
 
-a) should start as expired
+a) should start as expired (Done)
 b) primeheads should be enabled
 c) print should be disabled
 
