@@ -192,6 +192,7 @@
 		<Item Name="TestLoadSingleimage.vi" Type="VI" URL="../Common/Utilities/TestLoadSingleimage.vi"/>
 		<Item Name="processMode--enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode--enum.ctl"/>
 		<Item Name="InkIdleNodeConfigXML--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/InkIdleNodeConfigXML--Cluster.ctl"/>
+		<Item Name="processMode_parameters--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode_parameters--cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
