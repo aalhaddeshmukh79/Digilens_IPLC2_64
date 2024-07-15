@@ -192,6 +192,7 @@
 		<Item Name="TestLoadSingleimage.vi" Type="VI" URL="../Common/Utilities/TestLoadSingleimage.vi"/>
 		<Item Name="processMode--enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode--enum.ctl"/>
 		<Item Name="InkIdleNodeConfigXML--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/InkIdleNodeConfigXML--Cluster.ctl"/>
+		<Item Name="processMode_parameters--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode_parameters--cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1036,10 +1037,6 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
 				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
