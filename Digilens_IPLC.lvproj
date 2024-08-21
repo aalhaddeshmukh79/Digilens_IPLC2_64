@@ -1105,6 +1105,47 @@
 			<Item Name="GetDPIValuesFromMode.vi" Type="VI" URL="../Classes/Utilities/GetDPIValuesFromMode.vi"/>
 			<Item Name="UserLevel_withoutNone--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel_withoutNone--Enum.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Digilens_IPLC" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CDDE1F9A-188E-48E8-83A0-174F76F4C161}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1C8DD133-DE8A-4F75-927A-2EBB3D873A92}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{03F31A59-67E6-4E6C-BFB7-9F21AB2B93E3}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Digilens_IPLC</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{CE17607B-CDA8-4AB0-90D6-552BCAD2C721}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Digilens_IPLC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digilens_IPLC.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C90A40B3-18C7-439F-90BC-A3F17C0B4478}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC</Property>
+				<Property Name="TgtF_internalName" Type="Str">Digilens_IPLC</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Wakefield Engineering</Property>
+				<Property Name="TgtF_productName" Type="Str">Digilens_IPLC</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1133718F-1282-4A95-84F3-A629DBB95972}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Digilens_IPLC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
