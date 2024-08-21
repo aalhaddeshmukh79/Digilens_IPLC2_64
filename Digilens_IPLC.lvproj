@@ -139,7 +139,6 @@
 			<Item Name="To Be Sorted" Type="Folder">
 				<Item Name="WriteConfig.vi" Type="VI" URL="../Classes/WriteConfig.vi"/>
 				<Item Name="SetJogSpeed.vi" Type="VI" URL="../Classes/Motor Controller/Methods/SetJogSpeed.vi"/>
-				<Item Name="Read Tiff File (Bitmiracle libtiff.net).vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net).vi"/>
 				<Item Name="WriteDLP2Config.vi" Type="VI" URL="../Common/Support/WriteDLP2Config.vi"/>
 				<Item Name="PurgeMode--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/PurgeMode--Enum.ctl"/>
 				<Item Name="TiffImageData--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/TiffImageData--Cluster.ctl"/>
@@ -152,8 +151,6 @@
 				<Item Name="format status message v2.vi" Type="VI" URL="/&lt;vilib&gt;/TELLC/Misc Utilities/format status message v2.vi"/>
 				<Item Name="LoadAll.vi" Type="VI" URL="../LoadAll.vi"/>
 				<Item Name="MainTabs--tabs.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/MainTabs--tabs.ctl"/>
-				<Item Name="BitMiracle.LibTiff.NET.dll" Type="Document" URL="../../../Nuget/BitMiracle.LibTiff.NET.2.4.649/lib/net40/BitMiracle.LibTiff.NET.dll"/>
-				<Item Name="Read Tiff File (Bitmiracle libtiff.net)_v2.vi" Type="VI" URL="../Common/Lib/bitmiracle/Read Tiff File (Bitmiracle libtiff.net)_v2.vi"/>
 				<Item Name="GIS_PollTimers--cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS_PollTimers--cluster.ctl"/>
 				<Item Name="GIS Status--Cluster.ctl" Type="VI" URL="../Classes/GIS Printer/Typedefs/GIS Status--Cluster.ctl"/>
 				<Item Name="HeadHeaterTemperatureSet--Cluster.ctl" Type="VI" URL="../Common/Controls/HeadHeaterTemperatureSet--Cluster.ctl"/>
@@ -187,6 +184,7 @@
 		<Item Name="DataQueues.lvclass" Type="LVClass" URL="../Classes/DAQWFE/LV_Source/Support/DataQueues/DataQueues.lvclass"/>
 		<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../Classes/DAQ_Common/Lib/ErrorHandler/ErrorHandler.lvclass"/>
 		<Item Name="Launch Digilens IPLC GEN2" Type="VI" URL="../Launch Digilens IPLC GEN2"/>
+		<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 		<Item Name="TestLoadImages.vi" Type="VI" URL="../Common/Support/TestLoadImages.vi"/>
 		<Item Name="LoadImagesData--cluster.ctl" Type="VI" URL="../Classes/DLP2/DataTypes/LoadImagesData--cluster.ctl"/>
 		<Item Name="TestLoadSingleimage.vi" Type="VI" URL="../Common/Utilities/TestLoadSingleimage.vi"/>
@@ -766,9 +764,7 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="Write File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write File+ (string).vi"/>
 				<Item Name="compatWriteText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatWriteText.vi"/>
-				<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name=".NET Object to Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object to Variant.vi"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
@@ -1038,7 +1034,6 @@
 				<Item Name="Simple Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Simple Grid Descriptor"/>
 				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
 			</Item>
-			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 			<Item Name="QuiryBuilderData--Cluster.ctl" Type="VI" URL="../Classes/Database/DataTypes/QuiryBuilderData--Cluster.ctl"/>
 			<Item Name="ADODBConnection Open.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Open.vi"/>
 			<Item Name="ADODBConnection Create.vi" Type="VI" URL="../Common/Utilities/SQLToolkit.llb/ADODBConnection Create.vi"/>
@@ -1062,18 +1057,11 @@
 			<Item Name="General Error Handler --KTMOD.vi" Type="VI" URL="../Common/Utilities/General Error Handler --KTMOD.vi"/>
 			<Item Name="General Error Handler - show previous state.vi" Type="VI" URL="../Common/Utilities/General Error Handler - show previous state.vi"/>
 			<Item Name="Fire StopProcess Event.vi" Type="VI" URL="../Common/Support/Fire StopProcess Event.vi"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="TD HeadColorPaneMapping--cluster.ctl" Type="VI" URL="../Common/Controls/TD HeadColorPaneMapping--cluster.ctl"/>
-			<Item Name="tiffOpenForRead.vi" Type="VI" URL="../Common/Lib/bitmiracle/tiffOpenForRead.vi"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BitMiracle.LibTiff.NET.dll" Type="Document" URL="BitMiracle.LibTiff.NET.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Report Class Launch Result.vi" Type="VI" URL="../Classes/DAQWFE/LV_Source/Util/Report Class Launch Result.vi"/>
@@ -1090,7 +1078,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="EEIP.dll" Type="Document" URL="../Classes/Motor Controller/EEIP.dll"/>
 			<Item Name="ImageResolution--enum.ctl" Type="VI" URL="../Common/Controls/ImageResolution--enum.ctl"/>
 			<Item Name="Imageresolution--cluster.ctl" Type="VI" URL="../Common/Controls/Imageresolution--cluster.ctl"/>
 			<Item Name="HeadButton.ctl" Type="VI" URL="../Icons/HeadButton.ctl"/>
@@ -1100,10 +1087,10 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 			<Item Name="Get Python Path.vi" Type="VI" URL="../Common/Utilities/Get Python Path.vi"/>
 			<Item Name="GetDPIValuesFromMode.vi" Type="VI" URL="../Classes/Utilities/GetDPIValuesFromMode.vi"/>
 			<Item Name="UserLevel_withoutNone--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel_withoutNone--Enum.ctl"/>
+			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digilens_IPLC" Type="EXE">
@@ -1130,13 +1117,16 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C90A40B3-18C7-439F-90BC-A3F17C0B4478}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{188F070C-BCF3-44EB-80B9-62390F8FB5CF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ethernetipinterface.dll</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC</Property>
 				<Property Name="TgtF_internalName" Type="Str">Digilens_IPLC</Property>
