@@ -1090,7 +1090,6 @@
 			<Item Name="Get Python Path.vi" Type="VI" URL="../Common/Utilities/Get Python Path.vi"/>
 			<Item Name="GetDPIValuesFromMode.vi" Type="VI" URL="../Classes/Utilities/GetDPIValuesFromMode.vi"/>
 			<Item Name="UserLevel_withoutNone--Enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/UserLevel_withoutNone--Enum.ctl"/>
-			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digilens_IPLC" Type="EXE">
@@ -1117,7 +1116,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{188F070C-BCF3-44EB-80B9-62390F8FB5CF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A3FAF852-89C2-4811-B586-A08B4007DB59}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
@@ -1125,7 +1124,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ethernetipinterface.dll</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC</Property>
