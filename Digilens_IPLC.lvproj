@@ -1099,6 +1099,7 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{03F31A59-67E6-4E6C-BFB7-9F21AB2B93E3}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">V1.1.0.1 (StageTimeoutError)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Digilens_IPLC</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1109,6 +1110,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CE17607B-CDA8-4AB0-90D6-552BCAD2C721}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1116,7 +1118,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A3FAF852-89C2-4811-B586-A08B4007DB59}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A4C47D54-5A6C-46DE-B411-CF445ED1C966}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
