@@ -1136,6 +1136,138 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Digilens_IPLC.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DigilensIPLC2" Type="Installer">
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{0C3CAF31-4F7C-4135-A5BD-44701BEC0CBE}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2022 Q3</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{4A099A0F-EEAB-4E52-8721-5515D0162D04}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2022 Q3</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{FB6A85DD-B936-4E9B-B820-DE0CDE8C2916}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-DAQmx Runtime 22.5</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{016644E7-BFD9-410F-902D-962614CB4E72}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 22.5</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{C3D70637-8D8E-42F8-B1DD-B234C817D122}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2022 Q3 (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2022 (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI TDM Streaming 22.3</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2022</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{68688466-B146-325C-AC08-D6ADFE5A4205}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI Logos 22.3</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2022 (64-bit)</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI mDNS Responder 22.5</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{FB80C6B7-18E1-3FF4-99A2-719F62FACAD8}</Property>
+				<Property Name="DistPartCount" Type="Int">5</Property>
+				<Property Name="INST_author" Type="Str">Wakefield Engineering</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Digilens_IPLC2/DigilensIPLC2</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">DigilensIPLC2</Property>
+				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="INST_installerName" Type="Str">Digilens_IPLC2_Installer.exe</Property>
+				<Property Name="INST_productName" Type="Str">Digilens_IPLC2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">22308000</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Wakefield Engineering</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{E9FA8C38-7D49-458D-B0B0-33B065EC3459}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{E69BE34B-AFC5-42DB-AC74-141C6FCD2375}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Digilens_IPLC.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Digilens_IPLC</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Digilens_IPLC</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{1133718F-1282-4A95-84F3-A629DBB95972}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Digilens_IPLC</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Digilens_IPLC</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="StandaloneIO_Utility" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{FD6B48CB-0150-4CB2-82B6-64E1C11E49BF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B00DA7BC-F04D-45BF-998B-E12E71063745}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9032E869-5FBA-4063-B56F-695B3AE5F01A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">StandaloneIO_Utility</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/StandaloneIO_Utility</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{395FB92E-D8AA-49E9-A5D9-7476964AD302}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">StandaloneIO_Utility.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/StandaloneIO_Utility/StandaloneIO_Utility.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/StandaloneIO_Utility/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{735F1671-E0DE-45DF-AC68-BE400918CB1A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DAQ.lvclass/Standalone DAQ IO Config UI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">StandaloneIO_Utility</Property>
+				<Property Name="TgtF_internalName" Type="Str">StandaloneIO_Utility</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Wakefield Engineering</Property>
+				<Property Name="TgtF_productName" Type="Str">StandaloneIO_Utility</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{58925900-81D8-4E9B-837E-E91429061D79}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">StandaloneIO_Utility.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
