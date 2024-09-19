@@ -191,6 +191,7 @@
 		<Item Name="processMode--enum.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode--enum.ctl"/>
 		<Item Name="InkIdleNodeConfigXML--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/InkIdleNodeConfigXML--Cluster.ctl"/>
 		<Item Name="processMode_parameters--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode_parameters--cluster.ctl"/>
+		<Item Name="ProcessMode--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/ProcessMode--Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1200,7 +1201,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="INST_installerName" Type="Str">Digilens_IPLC2_Installer.exe</Property>
 				<Property Name="INST_productName" Type="Str">Digilens_IPLC2</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">22308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Wakefield Engineering</Property>
