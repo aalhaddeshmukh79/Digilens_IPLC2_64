@@ -193,6 +193,7 @@
 		<Item Name="processMode_parameters--cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/processMode_parameters--cluster.ctl"/>
 		<Item Name="ProcessMode--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/ProcessMode--Cluster.ctl"/>
 		<Item Name="InkProcessNodeConfigXML--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/InkProcessNodeConfigXML--Cluster.ctl"/>
+		<Item Name="TestInkDictionary.vi" Type="VI" URL="../Common/TestInkDictionary.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1101,18 +1102,15 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{03F31A59-67E6-4E6C-BFB7-9F21AB2B93E3}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">V1.2.0.1 (PhysicalSwitchLogic)</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">V1.2.1.4 (PhysicalSwitchLogic)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Digilens_IPLC</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CE17607B-CDA8-4AB0-90D6-552BCAD2C721}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1120,7 +1118,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1C037530-EF59-436C-95EA-BCB35EC81629}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CBDED6C2-3552-4A53-9FFC-0A8EC79B9AD8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
