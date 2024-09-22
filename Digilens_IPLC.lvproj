@@ -1013,10 +1013,6 @@
 				<Item Name="Normalize End Of Line.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Normalize End Of Line.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
-				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
@@ -1102,7 +1098,7 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{03F31A59-67E6-4E6C-BFB7-9F21AB2B93E3}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">V1.2.1.4 (PhysicalSwitchLogic)</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">V1.3.0.1 (PhysicalSwitchLogic)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Digilens_IPLC</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
@@ -1118,7 +1114,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CBDED6C2-3552-4A53-9FFC-0A8EC79B9AD8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FB4FFF92-6581-4CFC-BFA6-461EF88AE94F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
@@ -1126,7 +1122,11 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ethernetipinterface.dll</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TopLevel.lvclass/UIs/Digilens DLP Gen2 UI .vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC (PhysicalSwitchLogic)</Property>
 				<Property Name="TgtF_internalName" Type="Str">Digilens_IPLC</Property>
