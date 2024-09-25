@@ -279,97 +279,97 @@
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R1</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line0</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line0</IOPath>
       <SchemName>Ink Flow Valve Open - R1</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R2</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line1</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line1</IOPath>
       <SchemName>Ink Flow Valve Open - R2</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R3</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line2</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line2</IOPath>
       <SchemName>Ink Flow Valve Open - R3</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R4</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line3</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line3</IOPath>
       <SchemName>Ink Flow Valve Open - R4</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R5</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line4</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line4</IOPath>
       <SchemName>Ink Flow Valve Open - R5</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod5_9485_DO</DevName>
+      <DevName>cDAQ2Mod4_9485_DO</DevName>
       <IOName>Ink Flow Valve Open - R6</IOName>
-      <IOPath>cDAQ2Mod5_9485_DO/port0/line5</IOPath>
+      <IOPath>cDAQ2Mod4_9485_DO/port0/line5</IOPath>
       <SchemName>Ink Flow Valve Open - R6</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R1</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line0</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line0</IOPath>
       <SchemName>Recirc Pump On - R1</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R2</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line1</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line1</IOPath>
       <SchemName>Recirc Pump On - R2</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R3</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line2</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line2</IOPath>
       <SchemName>Recirc Pump On - R3</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R4</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line3</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line3</IOPath>
       <SchemName>Recirc Pump On - R4</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R5</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line4</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line4</IOPath>
       <SchemName>Recirc Pump On - R5</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
     </DO_Channels>
     <DO_Channels>
-      <DevName>cDAQ2Mod4_9485_DO</DevName>
+      <DevName>cDAQ2Mod5_9485_DO</DevName>
       <IOName>Recirc Pump On - R6</IOName>
-      <IOPath>cDAQ2Mod4_9485_DO/port0/line5</IOPath>
+      <IOPath>cDAQ2Mod5_9485_DO/port0/line5</IOPath>
       <SchemName>Recirc Pump On - R6</SchemName>
       <logic>Hi</logic>
       <DAQmx_Task/>
