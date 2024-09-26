@@ -194,6 +194,9 @@
 		<Item Name="ProcessMode--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/ProcessMode--Cluster.ctl"/>
 		<Item Name="InkProcessNodeConfigXML--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/InkProcessNodeConfigXML--Cluster.ctl"/>
 		<Item Name="TestInkDictionary.vi" Type="VI" URL="../Common/TestInkDictionary.vi"/>
+		<Item Name="DLPConfig_Initialization_test.ctl" Type="VI" URL="../Common/Controls/DLPConfig_Initialization_test.ctl"/>
+		<Item Name="DLPConfigurationXMLNew-Read.vi" Type="VI" URL="../Common/DLPConfigurationXMLNew-Read.vi"/>
+		<Item Name="DLPPrinterInitXML.ctl" Type="VI" URL="../Common/Controls/DLPPrinterInitXML.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -1092,7 +1095,6 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digilens_IPLC" Type="EXE">
