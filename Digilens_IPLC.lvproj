@@ -197,6 +197,8 @@
 		<Item Name="DLPConfig_Initialization_test.ctl" Type="VI" URL="../Common/Controls/DLPConfig_Initialization_test.ctl"/>
 		<Item Name="DLPConfigurationXMLNew-Read.vi" Type="VI" URL="../Common/DLPConfigurationXMLNew-Read.vi"/>
 		<Item Name="DLPPrinterInitXML.ctl" Type="VI" URL="../Common/Controls/DLPPrinterInitXML.ctl"/>
+		<Item Name="DLPConfigurationXMLNew-Write.vi" Type="VI" URL="../Common/DLPConfigurationXMLNew-Write.vi"/>
+		<Item Name="ProcessModeParamsNew--Cluster.ctl" Type="VI" URL="../Classes/TopLevel/Typedefs/ProcessModeParamsNew--Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
