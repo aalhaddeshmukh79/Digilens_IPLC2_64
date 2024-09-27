@@ -15,16 +15,16 @@
     <Heater-2_Off>true</Heater-2_Off>
     <Heater-3_Off>true</Heater-3_Off>
     <Heater-4_Off>true</Heater-4_Off>
-    <Heater-5_Off>false</Heater-5_Off>
-    <Heater-6_Off>false</Heater-6_Off>
+    <Heater-5_Off>true</Heater-5_Off>
+    <Heater-6_Off>true</Heater-6_Off>
   </HeatEnable>
   <MiniscusPressure>
     <Meniscus_Pressure_Set_-_R1>8</Meniscus_Pressure_Set_-_R1>
-    <Meniscus_Pressure_Set_-_R2>10.5</Meniscus_Pressure_Set_-_R2>
+    <Meniscus_Pressure_Set_-_R2>9</Meniscus_Pressure_Set_-_R2>
     <Meniscus_Pressure_Set_-_R3>10</Meniscus_Pressure_Set_-_R3>
-    <Meniscus_Pressure_Set_-_R4>12.5</Meniscus_Pressure_Set_-_R4>
-    <Meniscus_Pressure_Set_-_R5>9.5</Meniscus_Pressure_Set_-_R5>
-    <Meniscus_Pressure_Set_-_R6>11.5</Meniscus_Pressure_Set_-_R6>
+    <Meniscus_Pressure_Set_-_R4>11</Meniscus_Pressure_Set_-_R4>
+    <Meniscus_Pressure_Set_-_R5>9</Meniscus_Pressure_Set_-_R5>
+    <Meniscus_Pressure_Set_-_R6>10</Meniscus_Pressure_Set_-_R6>
   </MiniscusPressure>
   <RecircPumpFlow>
     <Recirc_Pump_Flow_Set_-_R1>1</Recirc_Pump_Flow_Set_-_R1>
