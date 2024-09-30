@@ -1097,6 +1097,7 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digilens_IPLC" Type="EXE">
