@@ -1097,7 +1097,6 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="E84LoadPort.ctl" Type="VI" URL="../../E84LoadPort/E84LoadPort.lvclass/E84LoadPort.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digilens_IPLC" Type="EXE">
@@ -1107,14 +1106,14 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{03F31A59-67E6-4E6C-BFB7-9F21AB2B93E3}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">V1.5.0.1 (Modes)</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">V1.6.0.1 (CalibHeadNo)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Digilens_IPLC</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CE17607B-CDA8-4AB0-90D6-552BCAD2C721}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">5</Property>
+				<Property Name="Bld_version.minor" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digilens_IPLC.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1122,7 +1121,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B8A9BA71-DF81-49F0-9FEB-E88E6A6122B8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9AE0F0D7-08B2-45CB-A2BB-E9871ADCBE1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Digilens IPLC GEN2</Property>
@@ -1136,7 +1135,7 @@
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Wakefield Engineering</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC V1.4.0.1 (PhysicalSwitchLogic)</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Digilens_IPLC V1.6.0.1 (CalibHeadNo)</Property>
 				<Property Name="TgtF_internalName" Type="Str">Digilens_IPLC</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 Wakefield Engineering</Property>
 				<Property Name="TgtF_productName" Type="Str">Digilens_IPLC</Property>
